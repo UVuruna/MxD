@@ -1,0 +1,16 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --primary-color: #496bef;
+  --secondary-color: #181818;
+  --text-color: #000000;
+  --background-color: #ffffff;
+
+  /* Fonts */
+  --font-family-primary: "Poppins-Regular", sans-serif;
+  --font-family-secondary: "Poppins-SemiBold", sans-serif;
+  --font-family-tertirary: "Poppins-Medium", sans-serif;
+
+  /* Effects */
+  --border-radius: 20px;
+}
