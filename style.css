@@ -1,9 +1,6 @@
-
-
-.website-redesign-homepage * {
-  box-sizing: border-box;
-}
 .website-redesign-homepage {
+  /* main div */
+  box-sizing: border-box;
   max-width: 1728px;
   max-height: 8227px;
   margin: 0 auto;
@@ -12,6 +9,95 @@
   position: relative;
   overflow: hidden;
 }
+
+.title-frame {
+  /* website-redesign-homepage */
+  width: 1728px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.MxD-logo-black {
+  /* website-redesign-homepage > title-frame */
+  width: 156px;
+  height: 45px;
+  position: absolute;
+  left: 58px;
+  top: 50%;
+  /* Postavlja gornju ivicu elementa na 50% visine roditeljskog elementa */
+  transform: translateY(-50%);
+  /* Pomera element nagore za 50% svoje visine kako bi bio centriran */
+  object-fit: cover;
+}
+
+.dropdown-frame {
+  /* website-redesign-homepage > title-frame */
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 969px;
+  top: 50%;
+  /* Postavlja gornju ivicu elementa na 50% visine roditeljskog elementa */
+  transform: translateY(-50%);
+  /* Pomera element nagore za 50% svoje visine kako bi bio centriran */
+}
+
+.services {
+  /* website-redesign-homepage > title-frame > dropdown-frame */
+  color: #000000;
+  text-align: left;
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+
+.verticles {
+  /* website-redesign-homepage > title-frame > dropdown-frame */
+  color: #000000;
+  text-align: left;
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+
+.marketing-solutions {
+  /* website-redesign-homepage > title-frame > dropdown-frame */
+  color: #000000;
+  text-align: left;
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+
+.work-with-us {
+  /* website-redesign-homepage > title-frame */
+  background: #496bef;
+  border-radius: var(--border-radius-large);
+  width: 189px;
+  height: 41px;
+  position: absolute;
+  left: 1479px;
+  top: 50%;
+  /* Postavlja gornju ivicu elementa na 50% visine roditeljskog elementa */
+  transform: translateY(-50%);
+  /* Pomera element nagore za 50% svoje visine kako bi bio centriran */
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .rectangle-14 {
   background: #181818;
   width: 1743px;
@@ -20,84 +106,12 @@
   left: -66px;
   top: 2149px;
 }
-.frame-1 {
-  display: flex;
-  flex-direction: row;
-  gap: 58px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 969px;
-  top: 34px;
-}
-.services {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
-  position: relative;
-}
-.verticles {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
-  position: relative;
-}
-.marketing-solutions {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
-  position: relative;
-}
-.arrow-1 {
-  position: absolute;
-  left: 1056px;
-  top: 51.5px;
-  transform: translate(-5.52px, -5.52px);
-  overflow: visible;
-}
-.arrow-2 {
-  position: absolute;
-  left: 1190px;
-  top: 51.5px;
-  transform: translate(-5.52px, -5.52px);
-  overflow: visible;
-}
-.arrow-3 {
-  position: absolute;
-  left: 1426px;
-  top: 51.5px;
-  transform: translate(-5.52px, -5.52px);
-  overflow: visible;
-}
+
 .group-13 {
   position: absolute;
   inset: 0;
 }
-.rectangle-8 {
-  background: #496bef;
-  border-radius: 100px;
-  width: 189px;
-  height: 41px;
-  position: absolute;
-  left: 1479px;
-  top: 27px;
-}
-.work-with-us {
-  color: #ffffff;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
-  position: absolute;
-  left: 1517px;
-  top: 34px;
-}
+
 .our-approach {
   color: rgba(255, 255, 255, 0.1);
   text-align: center;
@@ -110,6 +124,7 @@
   top: 2227px;
   width: 1864px;
 }
+
 .data-driven-decision-making-for-b-2-b-marketing {
   color: #ffffff;
   text-align: left;
@@ -122,6 +137,7 @@
   top: 2331px;
   width: 844px;
 }
+
 .powered-by-data {
   color: #ffffff;
   text-align: center;
@@ -133,6 +149,7 @@
   top: 2975px;
   width: 844px;
 }
+
 .why-scaling-businesses-choose-mx-d {
   color: #ffffff;
   text-align: center;
@@ -145,6 +162,7 @@
   top: 4298px;
   width: 1068px;
 }
+
 .our-data-first-approach-allows-us-to-take-small-and-growing-businesses-and-have-them-compete-with-competitors-significantly-bigger-our-marketing-strategy-counselling-data-hub-and-execution-teams-provide-clear-actional-strategies-to-increase-revenue-with-a-go-to-market-and-execution-team-to-support {
   color: #ffffff;
   text-align: justified;
@@ -156,19 +174,22 @@
   top: 2577px;
   width: 629px;
 }
+
 .group-14 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-82 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 216px;
   height: 46px;
   position: absolute;
   left: 103px;
   top: 2747px;
 }
+
 .how-we-work {
   color: #ffffff;
   text-align: left;
@@ -181,19 +202,22 @@
   width: 124px;
   height: 28.88px;
 }
+
 .group-48 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-83 {
   background: #000000;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 216px;
   height: 46px;
   position: absolute;
   left: 733px;
   top: 5908px;
 }
+
 .how-we-work2 {
   color: #ffffff;
   text-align: left;
@@ -206,10 +230,12 @@
   width: 124px;
   height: 28.88px;
 }
+
 .group-37 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-28 {
   background: #181818;
   width: 1728px;
@@ -218,6 +244,7 @@
   left: 0px;
   top: 7738px;
 }
+
 .frame-2 {
   display: flex;
   flex-direction: row;
@@ -228,6 +255,7 @@
   left: 862px;
   top: 7787px;
 }
+
 .services2 {
   color: #ffffff;
   text-align: left;
@@ -236,6 +264,7 @@
   font-weight: 500;
   position: relative;
 }
+
 .verticles2 {
   color: #ffffff;
   text-align: left;
@@ -244,6 +273,7 @@
   font-weight: 500;
   position: relative;
 }
+
 .marketing-solutions2 {
   color: #ffffff;
   text-align: left;
@@ -252,7 +282,8 @@
   font-weight: 500;
   position: relative;
 }
-.artboard-4-4-x-8 {
+
+.MxD-logo-white {
   width: 288px;
   height: 83px;
   position: absolute;
@@ -260,6 +291,7 @@
   top: 7814px;
   object-fit: cover;
 }
+
 .b-2-b-marketing-go-to-market-strategy-market-expansion-growth-marketing-cmo-marketing-strategy-data-ai-high-intent-lead-generation-cac-ltv-optimisation-paid-performance-marketing-conversion-rate-optimisation-cro-sales-team-enablement-content-seo-branding {
   color: #80868a;
   text-align: left;
@@ -271,6 +303,7 @@
   top: 7829px;
   width: 227px;
 }
+
 .b-2-b-direct-to-consumer-consumer-services {
   color: #80868a;
   text-align: left;
@@ -282,6 +315,7 @@
   top: 7829px;
   width: 227px;
 }
+
 .paid-media-performance-marketing-paid-media-paid-social-earned-media-public-relations-influencer-affiliate-owned-media-seo-social-media-branding-email-sms-content-marketing-cr-oces {
   color: #80868a;
   text-align: left;
@@ -293,16 +327,9 @@
   top: 7829px;
   width: 206px;
 }
-.artboard-3-4-x-8 {
-  width: 156px;
-  height: 45px;
-  position: absolute;
-  left: 58px;
-  top: 23px;
-  object-fit: cover;
-}
+
 .big-data-stream-abstract-wave-260-nw-1825900271-jpg {
-  border-radius: 20px;
+  border-radius: var(--border-radius-medium);
   width: 814px;
   height: 410px;
   position: absolute;
@@ -311,15 +338,17 @@
   mix-blend-mode: luminosity;
   object-fit: cover;
 }
+
 .rectangle-17 {
   background: #496bef;
-  border-radius: 20px;
+  border-radius: var(--border-radius-medium);
   width: 737px;
   height: 235px;
   position: absolute;
   left: 780px;
   top: 3433px;
 }
+
 .marketing-in-today-s-world-is-a-science-we-create-your-personalised-data-centre-that-allows-you-to-understand-how-your-marketing-efforts-are-translating-into-revenue {
   color: #ffffff;
   text-align: justified;
@@ -331,19 +360,22 @@
   top: 3477px;
   width: 629px;
 }
+
 .group-15 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-84 {
   background: #000000;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 315px;
   height: 46px;
   position: absolute;
   left: 838px;
   top: 3585px;
 }
+
 .data-driving-b-2-b-marketing {
   color: #fcfcfc;
   text-align: left;
@@ -354,8 +386,9 @@
   left: 875px;
   top: 3593px;
 }
+
 .majestic-iceberg-reflection-dark-water-825767-52906 {
-  border-radius: 20px;
+  border-radius: var(--border-radius-medium);
   width: 756px;
   height: 438px;
   position: absolute;
@@ -364,6 +397,7 @@
   mix-blend-mode: lighten;
   object-fit: cover;
 }
+
 .frame-5 {
   width: 1493px;
   height: 1169px;
@@ -371,6 +405,7 @@
   left: 101px;
   top: 876px;
 }
+
 .what-we-do {
   color: #000000;
   text-align: left;
@@ -382,6 +417,7 @@
   top: 115px;
   width: 169px;
 }
+
 .who-we-are {
   color: #000000;
   text-align: left;
@@ -393,6 +429,7 @@
   top: 810px;
   width: 169px;
 }
+
 .get-a-world-class-marketing-strategy-and-a-scale-to-market-team-to-help-you-execute-that-strategy-to-get-you-to-your-revenue-targets-faster {
   color: #000000;
   text-align: left;
@@ -404,6 +441,7 @@
   top: 335px;
   width: 586px;
 }
+
 .data-driven-b-2-b-marketing-from-strategy-to-execution {
   color: #000000;
   text-align: left;
@@ -415,6 +453,7 @@
   top: 174px;
   width: 703px;
 }
+
 .scale-quicker {
   color: #000000;
   text-align: left;
@@ -427,6 +466,7 @@
   width: 317px;
   height: 56px;
 }
+
 .we-re-a-full-service-agency-that-supports-your-business-to-grow-drive-high-quality-leads-and-support-your-sales-team-to-convert-those-leads-to-supersede-your-revenue-targets {
   color: #000000;
   text-align: left;
@@ -438,19 +478,22 @@
   top: 978px;
   width: 533px;
 }
+
 .group-26 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-85 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 216px;
   height: 46px;
   position: absolute;
   left: 960px;
   top: 1103px;
 }
+
 .more-about-us {
   color: #ffffff;
   text-align: center;
@@ -463,19 +506,22 @@
   width: 155px;
   height: 28px;
 }
+
 .group-28 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-86 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 216px;
   height: 46px;
   position: absolute;
   left: 0px;
   top: 424px;
 }
+
 .how-we-work3 {
   color: #ffffff;
   text-align: center;
@@ -488,8 +534,9 @@
   width: 155px;
   height: 28px;
 }
+
 .artboard-2-4-x-8-1 {
-  border-radius: 20px;
+  border-radius: var(--border-radius-medium);
   width: 510px;
   height: 393px;
   position: absolute;
@@ -497,8 +544,9 @@
   top: 612px;
   object-fit: cover;
 }
+
 .artboard-2-4-x-8-2 {
-  border-radius: 20px;
+  border-radius: var(--border-radius-medium);
   width: 510px;
   height: 393px;
   position: absolute;
@@ -508,12 +556,14 @@
   transform: rotate(0deg) scale(-1, 1);
   object-fit: cover;
 }
+
 .group-52 {
   position: absolute;
   inset: 0;
 }
+
 .captura-de-pantalla-2024-01-30-a-las-13-13-41 {
-  border-radius: 20px;
+  border-radius: var(--border-radius-medium);
   width: 510px;
   height: 435px;
   position: absolute;
@@ -521,8 +571,9 @@
   top: 734px;
   object-fit: cover;
 }
+
 .web-150-dpi-20231031-chicago-lifestyle-40-scaled-jpg {
-  border-radius: 20px;
+  border-radius: var(--border-radius-medium);
   width: 510px;
   height: 435px;
   position: absolute;
@@ -530,6 +581,7 @@
   top: 115px;
   object-fit: cover;
 }
+
 .we-create-your-companies-digital-marketing-big-brain-to-ingest-all-data-for-predictable-revenue-growth {
   color: #ffffff;
   text-align: center;
@@ -543,6 +595,7 @@
   top: 3084px;
   width: 1148px;
 }
+
 .we-create-your-companies-digital-marketing-big-brain-to-ingest-all-data-for-predictable-revenue-growth-span {
   color: #ffffff;
   font-family: var(--font-family-secondary);
@@ -550,6 +603,7 @@
   line-height: 38px;
   font-weight: 600;
 }
+
 .we-create-your-companies-digital-marketing-big-brain-to-ingest-all-data-for-predictable-revenue-growth-span2 {
   color: #ffffff;
   font-family: "Poppins-SemiBoldItalic", sans-serif;
@@ -558,6 +612,7 @@
   font-weight: 600;
   font-style: italic;
 }
+
 .we-create-your-companies-digital-marketing-big-brain-to-ingest-all-data-for-predictable-revenue-growth-span3 {
   color: #ffffff;
   font-family: var(--font-family-secondary);
@@ -565,10 +620,12 @@
   line-height: 38px;
   font-weight: 600;
 }
+
 .group-33 {
   position: absolute;
   inset: 0;
 }
+
 .our-verticles {
   color: #000000;
   text-align: left;
@@ -581,6 +638,7 @@
   width: 435px;
   height: 61px;
 }
+
 .our-team-of-highly-specialized-b-2-b-marketing-experts-performance-marketing-search-engine-optimization-lead-generation-conversion-rate-optimization-brand-and-content-ensures-that-you-get-the-results-you-want-more-revenue {
   color: #000000;
   text-align: justified;
@@ -592,168 +650,187 @@
   top: 6640px;
   width: 1104px;
 }
+
 .rectangle-89 {
   background: #eeeaea;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 113px;
   top: 6760px;
 }
+
 .rectangle-90 {
   background: #eeeaea;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 1349px;
   top: 6760px;
 }
+
 .rectangle-91 {
   background: #eeeaea;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 2585px;
   top: 6760px;
 }
+
 .rectangle-92 {
   background: #b1c1fe;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 422px;
   top: 6760px;
 }
+
 .rectangle-93 {
   background: #b1c1fe;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 1658px;
   top: 6760px;
 }
+
 .rectangle-94 {
   background: #646060;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 731px;
   top: 6760px;
 }
+
 .rectangle-95 {
   background: #646060;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 1967px;
   top: 6760px;
 }
+
 .rectangle-96 {
   background: #fff7f7;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 1040px;
   top: 6760px;
 }
+
 .rectangle-97 {
   background: #fff7f7;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   width: 309px;
   height: 385px;
   position: absolute;
   left: 2276px;
   top: 6760px;
 }
+
 .rectangle-98 {
   background: #d9d9d9;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 113px;
   top: 6975px;
 }
+
 .rectangle-99 {
   background: #d9d9d9;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 1349px;
   top: 6975px;
 }
+
 .rectangle-100 {
   background: #d9d9d9;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 2585px;
   top: 6975px;
 }
+
 .rectangle-101 {
   background: #496bef;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 422px;
   top: 6975px;
 }
+
 .rectangle-102 {
   background: #496bef;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 1658px;
   top: 6975px;
 }
+
 .rectangle-103 {
   background: #000000;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 731px;
   top: 6975px;
 }
+
 .rectangle-104 {
   background: #000000;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 1967px;
   top: 6975px;
 }
+
 .rectangle-105 {
   background: #ffffff;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 1040px;
   top: 6975px;
 }
+
 .rectangle-106 {
   background: #ffffff;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: var(--border-radius-bottom-small);
   width: 309px;
   height: 170px;
   position: absolute;
   left: 2276px;
   top: 6975px;
 }
+
 .direct-to-consumer {
   color: #000000;
   text-align: left;
@@ -767,6 +844,7 @@
   width: 142px;
   height: 28px;
 }
+
 .lorem-ipsum {
   color: #000000;
   text-align: left;
@@ -779,6 +857,7 @@
   width: 202px;
   height: 28px;
 }
+
 .cmo-marketing {
   color: #000000;
   text-align: left;
@@ -791,6 +870,7 @@
   width: 252px;
   height: 28px;
 }
+
 .b-2-b-marketing {
   color: #ffffff;
   text-align: left;
@@ -803,6 +883,7 @@
   width: 207px;
   height: 28px;
 }
+
 .lorem-ipsum2 {
   color: #ffffff;
   text-align: left;
@@ -815,6 +896,7 @@
   width: 238px;
   height: 28px;
 }
+
 .consumer-services {
   color: #ffffff;
   text-align: left;
@@ -828,6 +910,7 @@
   width: 207px;
   height: 54px;
 }
+
 .growth-marketing {
   color: #ffffff;
   text-align: left;
@@ -840,6 +923,7 @@
   width: 250px;
   height: 28px;
 }
+
 .lorem-ipsum3 {
   color: #000000;
   text-align: left;
@@ -852,6 +936,7 @@
   width: 207px;
   height: 28px;
 }
+
 .strategy {
   color: #000000;
   text-align: left;
@@ -864,6 +949,7 @@
   width: 207px;
   height: 28px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit {
   color: #000000;
   text-align: left;
@@ -876,6 +962,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit2 {
   color: #ffffff;
   text-align: left;
@@ -888,6 +975,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit3 {
   color: #ffffff;
   text-align: left;
@@ -900,6 +988,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit4 {
   color: #000000;
   text-align: left;
@@ -912,6 +1001,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit5 {
   color: #000000;
   text-align: left;
@@ -924,6 +1014,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit6 {
   color: #ffffff;
   text-align: left;
@@ -936,6 +1027,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit7 {
   color: #ffffff;
   text-align: left;
@@ -948,6 +1040,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit8 {
   color: #000000;
   text-align: left;
@@ -960,6 +1053,7 @@
   width: 232px;
   height: 63px;
 }
+
 .vorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit9 {
   color: #000000;
   text-align: left;
@@ -972,10 +1066,12 @@
   width: 232px;
   height: 63px;
 }
+
 .group-42 {
   position: absolute;
   inset: 0;
 }
+
 .our-services {
   color: #000000;
   text-align: left;
@@ -986,6 +1082,7 @@
   left: 120px;
   top: 6084px;
 }
+
 .our-team-of-highly-specialized-b-2-b-marketing-experts-performance-marketing-search-engine-optimization-lead-generation-conversion-rate-optimization-brand-and-content-ensures-that-you-get-the-results-you-want-more-revenue2 {
   color: #000000;
   text-align: justified;
@@ -997,20 +1094,23 @@
   top: 6227px;
   width: 565px;
 }
+
 .group-16 {
   width: 216px;
   height: 46px;
   position: static;
 }
+
 .rectangle-87 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 216px;
   height: 46px;
   position: absolute;
   left: 1327px;
   top: 6126px;
 }
+
 .b-2-b-marketing2 {
   color: #ffffff;
   text-align: left;
@@ -1023,20 +1123,23 @@
   width: 151px;
   height: 28px;
 }
+
 .group-24 {
   width: 249px;
   height: 46px;
   position: static;
 }
+
 .rectangle-88 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 249px;
   height: 46px;
   position: absolute;
   left: 1086px;
   top: 6210px;
 }
+
 .cmo-marketing2 {
   color: #ffffff;
   text-align: left;
@@ -1049,20 +1152,23 @@
   width: 187px;
   height: 28px;
 }
+
 .group-18 {
   width: 244px;
   height: 46px;
   position: static;
 }
+
 .rectangle-810 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 244px;
   height: 46px;
   position: absolute;
   left: 1347px;
   top: 6293px;
 }
+
 .market-expansion {
   color: #ffffff;
   text-align: left;
@@ -1075,20 +1181,23 @@
   width: 188px;
   height: 28px;
 }
+
 .group-20 {
   width: 183px;
   height: 46px;
   position: static;
 }
+
 .rectangle-811 {
   background: #d1cece;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 183px;
   height: 46px;
   position: absolute;
   left: 1111px;
   top: 6126px;
 }
+
 .data-ai {
   color: #000000;
   text-align: center;
@@ -1101,20 +1210,23 @@
   width: 141px;
   height: 28px;
 }
+
 .group-25 {
   width: 183px;
   height: 46px;
   position: static;
 }
+
 .rectangle-812 {
   background: #d1cece;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 183px;
   height: 46px;
   position: absolute;
   left: 1125px;
   top: 6294px;
 }
+
 .generation {
   color: #000000;
   text-align: center;
@@ -1127,20 +1239,23 @@
   width: 141px;
   height: 28px;
 }
+
 .group-21 {
   width: 183px;
   height: 46px;
   position: static;
 }
+
 .rectangle-813 {
   background: #040000;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 183px;
   height: 46px;
   position: absolute;
   left: 885px;
   top: 6126px;
 }
+
 .strategy2 {
   color: #ffffff;
   text-align: center;
@@ -1153,20 +1268,23 @@
   width: 141px;
   height: 28px;
 }
+
 .group-17 {
   width: 294px;
   height: 46px;
   position: static;
 }
+
 .rectangle-814 {
   background: #d1cece;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 294px;
   height: 46px;
   position: absolute;
   left: 763px;
   top: 6210px;
 }
+
 .go-to-market-strategy {
   color: #000000;
   text-align: left;
@@ -1179,20 +1297,23 @@
   width: 249px;
   height: 28px;
 }
+
 .group-22 {
   width: 276px;
   height: 46px;
   position: static;
 }
+
 .rectangle-815 {
   background: #000000;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 276px;
   height: 46px;
   position: absolute;
   left: 1366px;
   top: 6210px;
 }
+
 .growth-marketing2 {
   color: #ffffff;
   text-align: center;
@@ -1205,20 +1326,23 @@
   width: 249px;
   height: 28px;
 }
+
 .group-19 {
   width: 235px;
   height: 46px;
   position: static;
 }
+
 .rectangle-816 {
   background: #000000;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 235px;
   height: 46px;
   position: absolute;
   left: 851px;
   top: 6294px;
 }
+
 .high-intent-lead {
   color: #ffffff;
   text-align: center;
@@ -1231,6 +1355,7 @@
   width: 192.48px;
   height: 28px;
 }
+
 .rectangle-108 {
   background: #181818;
   width: 1728px;
@@ -1239,6 +1364,7 @@
   left: 0px;
   top: 7343px;
 }
+
 .get-in-touch-with-us {
   color: #ffffff;
   text-align: justified;
@@ -1249,6 +1375,7 @@
   left: 133px;
   top: 7389px;
 }
+
 .morem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nunc-vulputate-libero-et-velit-interdum-ac-aliquet-odio-mattis {
   color: #ffffff;
   text-align: justified;
@@ -1260,19 +1387,22 @@
   top: 7482px;
   width: 550px;
 }
+
 .group-35 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-817 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 319px;
   height: 46px;
   position: absolute;
   left: 1030px;
   top: 7607px;
 }
+
 .let-s-chat {
   color: #fcfcfc;
   text-align: center;
@@ -1284,19 +1414,22 @@
   top: 7617px;
   width: 120.51px;
 }
+
 .group-38 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-109 {
   background: #ffffff;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 444px;
   height: 49px;
   position: absolute;
   left: 968px;
   top: 7513px;
 }
+
 .email {
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
@@ -1307,19 +1440,22 @@
   left: 1009px;
   top: 7524px;
 }
+
 .group-39 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-1092 {
   background: #ffffff;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 444px;
   height: 49px;
   position: absolute;
   left: 968px;
   top: 7439px;
 }
+
 .name {
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
@@ -1330,6 +1466,7 @@
   left: 1009px;
   top: 7450px;
 }
+
 .follow-us-on-social-media {
   color: #ffffff;
   text-align: left;
@@ -1342,6 +1479,7 @@
   width: 376px;
   height: 33px;
 }
+
 .artboard-2-4-x {
   width: 35px;
   height: 28.93px;
@@ -1350,6 +1488,7 @@
   top: 7641px;
   object-fit: cover;
 }
+
 .artboard-3-4-x {
   width: 35px;
   height: 35.19px;
@@ -1358,6 +1497,7 @@
   top: 7635px;
   object-fit: cover;
 }
+
 .artboard-4-4-x {
   width: 32px;
   height: 32px;
@@ -1366,6 +1506,7 @@
   top: 7641px;
   object-fit: cover;
 }
+
 .group-40 {
   height: auto;
   position: absolute;
@@ -1373,6 +1514,7 @@
   top: 6640px;
   overflow: visible;
 }
+
 .group-41 {
   height: auto;
   position: absolute;
@@ -1380,6 +1522,7 @@
   top: 6640px;
   overflow: visible;
 }
+
 .frame-4 {
   display: flex;
   flex-direction: column;
@@ -1391,12 +1534,14 @@
   left: 106px;
   top: 4451px;
 }
+
 .group-51 {
   flex-shrink: 0;
   width: 656px;
   height: 254px;
   position: static;
 }
+
 .teams-of-expert-under-one-roof {
   color: #ffffff;
   text-align: left;
@@ -1410,6 +1555,7 @@
   width: 656px;
   height: 140px;
 }
+
 .we-offer-comprehensive-marketing-support-from-strategy-to-execution-make-decisions-with-a-clear-picture-of-your-growth-where-it-is-today-and-where-it-needs-to-go {
   color: #ffffff;
   text-align: justified;
@@ -1422,12 +1568,14 @@
   width: 628px;
   height: 79px;
 }
+
 .group-49 {
   flex-shrink: 0;
   width: 907px;
   height: 259px;
   position: static;
 }
+
 .expertise-and-dedicated-support {
   color: #ffffff;
   text-align: left;
@@ -1441,6 +1589,7 @@
   width: 907px;
   height: 145px;
 }
+
 .get-marketing-expertise-that-is-focused-on-helping-you-reach-your-goals-get-a-dedicated-mx-d-marketing-team-with-expertise-across-industries-size-and-stage {
   color: #ffffff;
   text-align: justified;
@@ -1453,12 +1602,14 @@
   width: 642px;
   height: 79px;
 }
+
 .group-50 {
   flex-shrink: 0;
   width: 690px;
   height: 259px;
   position: static;
 }
+
 .a-partner-that-grows-with-you {
   color: #ffffff;
   text-align: left;
@@ -1472,6 +1623,7 @@
   width: 690px;
   height: 145px;
 }
+
 .we-match-our-engagement-and-level-of-support-to-your-business-needs-whether-you-re-just-starting-out-or-scaling-quickly-we-re-here-to-partner-with-you-at-every-stage-of-your-journey {
   color: #ffffff;
   text-align: justified;
@@ -1484,24 +1636,27 @@
   width: 642px;
   height: 79px;
 }
+
 .ellipse-8 {
   background: #496bef;
-  border-radius: 50%;
+  border-radius: var(--border-radius-half);
   width: 28px;
   height: 28px;
   position: absolute;
   left: 885px;
   top: 4475px;
 }
+
 .ellipse-9 {
   background: #496bef;
-  border-radius: 50%;
+  border-radius: var(--border-radius-half);
   width: 28px;
   height: 28px;
   position: absolute;
   left: 885px;
   top: 4807px;
 }
+
 .vector-4 {
   height: 659.5px;
   position: absolute;
@@ -1509,15 +1664,17 @@
   top: 4493.5px;
   overflow: visible;
 }
+
 .ellipse-10 {
   background: #496bef;
-  border-radius: 50%;
+  border-radius: var(--border-radius-half);
   width: 28px;
   height: 28px;
   position: absolute;
   left: 885px;
   top: 5139px;
 }
+
 .we-help-business-like-yours-grow-revenue-profitabiliy {
   color: #000000;
   text-align: left;
@@ -1528,10 +1685,12 @@
   left: calc(50% - 342px);
   top: 5654px;
 }
+
 .group-47 {
   position: absolute;
   inset: 0;
 }
+
 .primary-horizontal {
   width: 232px;
   height: 79px;
@@ -1540,6 +1699,7 @@
   top: 5760.43px;
   object-fit: cover;
 }
+
 .terra-15-logo-black {
   width: 180px;
   height: 79px;
@@ -1548,6 +1708,7 @@
   top: 5752px;
   object-fit: cover;
 }
+
 .black {
   width: 202px;
   height: 123px;
@@ -1556,6 +1717,7 @@
   top: 5735px;
   object-fit: cover;
 }
+
 .artboard-3-4-x2 {
   width: 249px;
   height: 120px;
@@ -1564,6 +1726,7 @@
   top: 5740px;
   object-fit: cover;
 }
+
 .prdsurveyservices-logo-3 {
   width: 127px;
   height: 127px;
@@ -1572,6 +1735,7 @@
   top: 5733px;
   object-fit: cover;
 }
+
 .artboard-3-copy-4-x {
   width: 134px;
   height: 123px;
@@ -1580,6 +1744,7 @@
   top: 5730px;
   object-fit: cover;
 }
+
 .blue-logo-clinic-27-min-3 {
   width: 105px;
   height: 105px;
@@ -1589,6 +1754,7 @@
   mix-blend-mode: luminosity;
   object-fit: cover;
 }
+
 .mask-group {
   width: 248.96px;
   height: 100.43px;
@@ -1597,6 +1763,7 @@
   top: 5745px;
   overflow: visible;
 }
+
 .group-45 {
   width: 11.22%;
   height: 1.14%;
@@ -1607,6 +1774,7 @@
   top: 64.95%;
   overflow: visible;
 }
+
 .mask-group2 {
   width: 100px;
   height: 115.49px;
@@ -1615,6 +1783,7 @@
   top: 5733px;
   overflow: visible;
 }
+
 .artboard-2-4-x-4 {
   width: 247px;
   height: 64px;
@@ -1623,6 +1792,7 @@
   top: 5767px;
   object-fit: cover;
 }
+
 .artboard-2-4-x-5 {
   width: 235px;
   height: 60px;
@@ -1631,6 +1801,7 @@
   top: 5766.57px;
   object-fit: cover;
 }
+
 .artboard-2-4-x-7 {
   width: 235px;
   height: 60px;
@@ -1639,6 +1810,7 @@
   top: 5766.57px;
   object-fit: cover;
 }
+
 .artboard-2-4-x-6 {
   width: 200px;
   height: 60.09px;
@@ -1647,6 +1819,7 @@
   top: 5770px;
   object-fit: cover;
 }
+
 .mask-group3 {
   width: 200px;
   height: 60.4px;
@@ -1655,6 +1828,7 @@
   top: 5761px;
   overflow: visible;
 }
+
 .screenshot-2025-01-24-at-13-41-12-1 {
   width: 1864px;
   height: 674px;
@@ -1663,6 +1837,7 @@
   top: 130px;
   object-fit: cover;
 }
+
 .rectangle-110 {
   background: #ffffff;
   width: 1768px;
@@ -1671,6 +1846,7 @@
   left: -38px;
   top: 3814px;
 }
+
 .get-in-touch-with-us2 {
   color: #000000;
   text-align: justified;
@@ -1681,6 +1857,7 @@
   left: 156px;
   top: 3890px;
 }
+
 .morem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nunc-vulputate-libero-et-velit-interdum-ac-aliquet-odio-mattis2 {
   color: #000000;
   text-align: justified;
@@ -1692,15 +1869,17 @@
   top: 3983px;
   width: 550px;
 }
+
 .rectangle-818 {
   background: #496bef;
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   width: 319px;
   height: 46px;
   position: absolute;
   left: 1053px;
   top: 4058px;
 }
+
 .let-s-chat2 {
   color: #fcfcfc;
   text-align: center;
@@ -1712,8 +1891,9 @@
   top: 4068px;
   width: 120.51px;
 }
+
 .rectangle-1093 {
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
@@ -1723,6 +1903,7 @@
   left: 991px;
   top: 3974px;
 }
+
 .email2 {
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
@@ -1733,8 +1914,9 @@
   left: 1032px;
   top: 3985px;
 }
+
 .rectangle-1094 {
-  border-radius: 100px;
+  border-radius: var(--border-radius-large);
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
@@ -1744,6 +1926,7 @@
   left: 991px;
   top: 3900px;
 }
+
 .name2 {
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
@@ -1754,8 +1937,9 @@
   left: 1032px;
   top: 3911px;
 }
+
 .image-40-cea-7-jpeg {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: var(--border-radius-top-small);
   width: 309px;
   height: 215px;
   position: absolute;
@@ -1763,8 +1947,9 @@
   top: 6760px;
   object-fit: cover;
 }
+
 .istockphoto-949890436-612-x-612 {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: var(--border-radius-top-small);
   width: 309px;
   height: 215px;
   position: absolute;
@@ -1772,8 +1957,9 @@
   top: 6760px;
   object-fit: cover;
 }
+
 .istockphoto-1334658317-612-x-612 {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: var(--border-radius-top-small);
   width: 309px;
   height: 215px;
   position: absolute;
