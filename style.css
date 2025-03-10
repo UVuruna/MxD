@@ -20,185 +20,345 @@
   position: relative;
   z-index: 2;
 }
+    .MxD-logo-black {
+      /* website-redesign-homepage > title-frame */
+      width: 156px;
+      height: 45px;
+      position: absolute;
+      left: 58px;
+      top: 50%;
+      transform: translateY(-50%);
+      object-fit: cover;
+    }
+    .dropdown-frame {
+      /* website-redesign-homepage > title-frame */
+      display: flex;
+      flex-direction: row;
+      gap: 35px;
+      align-items: center;
+      justify-content: flex-start;
+      position: absolute;
+      left: 969px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+        .dropdown {
+          /* website-redesign-homepage > title-frame > dropdown-frame */
+          position: relative;
+          display: inline-block;
+        }
+            .dropbtn {
+              /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+              background-color: #ffffff;
+              color: #000000;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+            }
+            .dropdown-content {
+              /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              font-family: var(--font-family-primary);
+              white-space: nowrap;
+            }
+                .dropdown-content a {
+                  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown > dropdown-content */
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+                .dropdown-content a:hover {
+                  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown > dropdown-content */
+                  background-color: #f1f1f1;
+                }
+            .dropdown:hover .dropdown-content {
+              /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+              display: block;
+            }
+            .dropdown:hover .dropbtn {
+              /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+              background-color: #f1f1f1;
+            }
+    .work-with-us {
+      /* website-redesign-homepage > title-frame */
+      background: #496bef;
+      border-radius: var(--border-radius-large);
+      width: 189px;
+      height: 41px;
+      position: absolute;
+      left: 1479px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #ffffff;
+      text-align: center;
+      font-family: var(--font-family-primary);
+      font-size: 18px;
+      font-weight: 400;
+      cursor: pointer;
+    }
 
 .top-frame {
-  box-sizing: border-box;
+  /* website-redesign-homepage */
+  width: 100%;
   height: 678px;
+  margin-bottom: 60px;
   position: relative;
   z-index: 1;
 }
+    .top-frame-image-1 {
+        /* website-redesign-homepage > top-frame */
+        width: 1728px;
+        height: 678px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        object-fit: cover;
+        aspect-ratio: 1728/678;
+        }
+    .top-frame-text {
+        /* website-redesign-homepage > top-frame */
+        color: #ffffff;
+        text-align: center;
+        font-family: var(--font-family-primary);
+        font-size: 64px;
+        font-weight: 400;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        }
+    .get-started-button, .contact-sales-button, .play-video-button {
+        /* website-redesign-homepage > top-frame */
+        width: 200px;
+        height: 58px;
+        border-radius: 10px;
+        top: 58%;
+        font-family: var(--font-family-primary);
+        font-size: 16px;
+        font-weight: 400;
+        position: absolute;
+        cursor: pointer;
+        }
+        .get-started-button {
+            /* website-redesign-homepage > top-frame */
+            background: #ffffff;
+            left: 35%;
+            color: #0065fa;
+            font-family: var(--font-family-primary);
+            }
+        .contact-sales-button {
+            /* website-redesign-homepage > top-frame */
+            background: #0065fa;
+            right: 35%;
+            color: #ffffff;
+            font-family: var(--font-family-primary);
+            }
+        .play-video-button {
+            /* website-redesign-homepage > top-frame */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff; /* Boja teksta */
+            left: 50%;
+            top: 90%;
+            transform: translate(-50%, -50%);
+            }
+            .play-video-img {
+                /* website-redesign-homepage > top-frame > play-video-button */
+                margin-right: 10px;
+                width: 34px;
+                height: 34px;
+                object-fit: cover;
+                aspect-ratio: 1;
+                }
 
-.MxD-logo-black {
-  /* website-redesign-homepage > title-frame */
-  width: 156px;
-  height: 45px;
-  position: absolute;
-  left: 58px;
-  top: 50%;
-  transform: translateY(-50%);
-  object-fit: cover;
-}
 
-.dropdown-frame {
-  /* website-redesign-homepage > title-frame */
-  display: flex;
-  flex-direction: row;
-  gap: 35px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 969px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.dropdown {
-  /* website-redesign-homepage > title-frame > dropdown-frame */
+.about-us-frame {
+  /* website-redesign-homepage */
+  width: 90%;
+  height: 1169px;
   position: relative;
-  display: inline-block;
-}
-
-.dropbtn {
-  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
-  background-color: #ffffff;
-  color: #000000;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown-content {
-  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  font-family: var(--font-family-primary);
-  white-space: nowrap;
-}
-
-.dropdown-content a {
-  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown > dropdown-content */
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown > dropdown-content */
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
-  background-color: #f1f1f1;
-}
-
-.work-with-us {
-  /* website-redesign-homepage > title-frame */
-  background: #496bef;
-  border-radius: var(--border-radius-large);
-  width: 189px;
-  height: 41px;
-  position: absolute;
-  left: 1479px;
-  top: 50%;
-  /* Postavlja gornju ivicu elementa na 50% visine roditeljskog elementa */
-  transform: translateY(-50%);
-  /* Pomera element nagore za 50% svoje visine kako bi bio centriran */
-  color: #ffffff;
-  text-align: center;
-  font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
-  cursor: pointer;
-}
-
-.top-frame-image-1 {
-  width: 1728px;
-  height: 678px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  object-fit: cover;
-  aspect-ratio: 1728/678;
-}
-
-.get-started-button, .contact-sales-button, .play-video-button {
-  width: 200px;
-  height: 58px;
-  border-radius: 10px;
-  top: 58%;
-  font-family: var(--font-family-primary);
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  cursor: pointer;
-}
-.get-started-button {
-  background: #ffffff;
-  left: 35%;
-  color: #0065fa;
-  font-family: var(--font-family-primary);
-}
-.contact-sales-button {
-  background: #0065fa;
-  right: 35%;
-  color: #ffffff;
-  font-family: var(--font-family-primary);
-}
-.play-video-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff; /* Boja teksta */
-  left: 50%;
-  top: 90%;
-  transform: translate(-50%, -50%); /* Centriranje dugmeta */
-}
-
-.play-video-img {
-  margin-right: 10px; /* Razmak između slike i teksta */
-  width: 34px;
-  height: 34px;
-  object-fit: cover;
-  aspect-ratio: 1;
-}
-
-.powering-4-million-businesses-globally-ready-for-yours {
-  color: #ffffff;
-  text-align: center;
-  font-family: var(--font-family-primary);
-  font-size: 64px;
-  font-weight: 400;
-  position: absolute;
-  top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  white-space: nowrap;
+  margin-bottom: 60px;
+  margin-top: 30px;
 }
+    .what-we-do {
+        /* website-redesign-homepage > about-us-frame */
+        color: #000000;
+        text-align: left;
+        font-family: var(--font-family-secondary);
+        position: relative;
+        left: 0px;
+        width: 40%;
+        top: 10%;
+        display: block;
+        }
+        .what-we-do-title, .what-we-do-text, .what-we-do-explain, .button-how-we-work {
+            /* website-redesign-homepage > about-us-frame > what-we-do */
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 35px;
+            }
+            .what-we-do-title {
+                /* website-redesign-homepage > about-us-frame > what-we-do */
+                font-size: 25px;
+                font-weight: 600;
+                }
+            .what-we-do-text {
+                /* website-redesign-homepage > about-us-frame > what-we-do */
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 1.5;
+                }
+            .what-we-do-explain {
+                /* website-redesign-homepage > about-us-frame > what-we-do */
+                font-family: var(--font-family-primary);
+                font-size: 16px;
+                font-weight: 400;
+                width: 82%;
+                }
+        .button-how-we-work {
+            /* website-redesign-homepage > about-us-frame > what-we-do */
+            background: #496bef;
+            border-radius: var(--border-radius-large);
+            width: 216px;
+            height: 46px;
+            color: #ffffff;
+            text-align: center;
+            font-family: var(--font-family-tertirary);
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            }
+    .what-we-do-img {
+        /* website-redesign-homepage > about-us-frame */
+        border-radius: var(--border-radius-medium);
+        width: 510px;
+        height: 435px;
+        position: absolute;
+        left: 46%;
+        top: 8%;
+        z-index: 2;
+        }
+    .what-we-do-img-filler {
+        /* website-redesign-homepage > about-us-frame */
+        border-radius: var(--border-radius-medium);
+        width: 510px;
+        height: 393px;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(-1, 1);
+        z-index: 1;
+        }
 
-.rectangle-14 {
-  background: #181818;
-  width: 1743px;
-  height: 3400px;
-  position: absolute;
-  left: -66px;
-  top: 2149px;
-}
+    .who-we-are {
+        /* website-redesign-homepage > about-us-frame */
+        color: #000000;
+        text-align: left;
+        font-family: var(--font-family-secondary);
+        position: absolute;
+        
+        width: 40%;
+        left: 60%;
+        bottom: 0;
+        display: block;
+        }
+        .who-we-are-title, .who-we-are-text, .who-we-are-explain, .button-more-about-us {
+            /* website-redesign-homepage > about-us-frame > what-we-do */
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 35px;
+            }
+            .who-we-are-title {
+                /* website-redesign-homepage > about-us-frame > who-we-are */
+                color: #000000;
+                text-align: left;
+                font-family: var(--font-family-secondary);
+                font-size: 25px;
+                font-weight: 600;
+                position: relative;
+                width: 169px;
+                }
+            .who-we-are-text {
+                /* website-redesign-homepage > about-us-frame > who-we-are */
+                color: #000000;
+                text-align: left;
+                font-family: var(--font-family-secondary);
+                font-size: 45px;
+                font-weight: 600;
+                position: relative;
+                width: 317px;
+                height: 56px;
+                }
+            .who-we-are-explain {
+                /* website-redesign-homepage > about-us-frame > who-we-are */
+                color: #000000;
+                text-align: left;
+                font-family: var(--font-family-primary);
+                font-size: 16px;
+                font-weight: 400;
+                position: relative;
+                width: 500px;
+                }
+        .button-more-about-us {
+            /* website-redesign-homepage > about-us-frame > who-we-are */
+            background: #496bef;
+            border-radius: var(--border-radius-large);
+            width: 216px;
+            height: 46px;
+            color: #ffffff;
+            text-align: center;
+            font-family: var(--font-family-tertirary);
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            }
+    .who-we-are-filler-img {
+        /* website-redesign-homepage > about-us-frame */
+        border-radius: var(--border-radius-medium);
+        width: 510px;
+        height: 393px;
+        position: absolute;
+        left: 0;
+        bottom: 15%;
+        z-index: 1;
+        }
+    .who-we-are-img {
+        /* website-redesign-homepage > about-us-frame */
+        border-radius: var(--border-radius-medium);
+        width: 510px;
+        height: 435px;
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        z-index: 2;
+        }
 
-.group-13 {
-  position: absolute;
-  inset: 0;
-}
+        
+
+    .rectangle-14 {
+        background: #181818;
+        width: 1743px;
+        height: 3400px;
+        position: absolute;
+        left: -66px;
+        top: 2149px;
+        }
+
+    .group-13 {
+        position: absolute;
+        inset: 0;
+        }
 
 .our-approach {
   color: rgba(255, 255, 255, 0.1);
@@ -278,7 +438,7 @@
   top: 2747px;
 }
 
-.how-we-work {
+.how-we-work1 {
   color: #ffffff;
   text-align: left;
   font-family: var(--font-family-tertirary);
@@ -483,190 +643,6 @@
   left: 874px;
   top: 2477px;
   mix-blend-mode: lighten;
-  object-fit: cover;
-}
-
-.frame-5 {
-  width: 1493px;
-  height: 1169px;
-  position: absolute;
-  left: 101px;
-  top: 876px;
-}
-
-.what-we-do {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-secondary);
-  font-size: 25px;
-  font-weight: 600;
-  position: absolute;
-  left: 0px;
-  top: 115px;
-  width: 169px;
-}
-
-.who-we-are {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-secondary);
-  font-size: 25px;
-  font-weight: 600;
-  position: absolute;
-  left: 960px;
-  top: 810px;
-  width: 169px;
-}
-
-.get-a-world-class-marketing-strategy-and-a-scale-to-market-team-to-help-you-execute-that-strategy-to-get-you-to-your-revenue-targets-faster {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 0px;
-  top: 335px;
-  width: 586px;
-}
-
-.data-driven-b-2-b-marketing-from-strategy-to-execution {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-secondary);
-  font-size: 45px;
-  font-weight: 600;
-  position: absolute;
-  left: 2px;
-  top: 174px;
-  width: 703px;
-}
-
-.scale-quicker {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-secondary);
-  font-size: 45px;
-  font-weight: 600;
-  position: absolute;
-  left: 960px;
-  top: 869px;
-  width: 317px;
-  height: 56px;
-}
-
-.we-re-a-full-service-agency-that-supports-your-business-to-grow-drive-high-quality-leads-and-support-your-sales-team-to-convert-those-leads-to-supersede-your-revenue-targets {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 960px;
-  top: 978px;
-  width: 533px;
-}
-
-.group-26 {
-  position: absolute;
-  inset: 0;
-}
-
-.rectangle-85 {
-  background: #496bef;
-  border-radius: var(--border-radius-large);
-  width: 216px;
-  height: 46px;
-  position: absolute;
-  left: 960px;
-  top: 1103px;
-}
-
-.more-about-us {
-  color: #ffffff;
-  text-align: center;
-  font-family: var(--font-family-tertirary);
-  font-size: 18px;
-  font-weight: 500;
-  position: absolute;
-  left: 990px;
-  top: 1112px;
-  width: 155px;
-  height: 28px;
-}
-
-.group-28 {
-  position: absolute;
-  inset: 0;
-}
-
-.rectangle-86 {
-  background: #496bef;
-  border-radius: var(--border-radius-large);
-  width: 216px;
-  height: 46px;
-  position: absolute;
-  left: 0px;
-  top: 424px;
-}
-
-.how-we-work3 {
-  color: #ffffff;
-  text-align: center;
-  font-family: var(--font-family-tertirary);
-  font-size: 18px;
-  font-weight: 500;
-  position: absolute;
-  left: 30px;
-  top: 433px;
-  width: 155px;
-  height: 28px;
-}
-
-.artboard-2-4-x-8-1 {
-  border-radius: var(--border-radius-medium);
-  width: 510px;
-  height: 393px;
-  position: absolute;
-  left: 0px;
-  top: 612px;
-  object-fit: cover;
-}
-
-.artboard-2-4-x-8-2 {
-  border-radius: var(--border-radius-medium);
-  width: 510px;
-  height: 393px;
-  position: absolute;
-  left: 1493px;
-  top: 0px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(-1, 1);
-  object-fit: cover;
-}
-
-.group-52 {
-  position: absolute;
-  inset: 0;
-}
-
-.captura-de-pantalla-2024-01-30-a-las-13-13-41 {
-  border-radius: var(--border-radius-medium);
-  width: 510px;
-  height: 435px;
-  position: absolute;
-  left: 293px;
-  top: 734px;
-  object-fit: cover;
-}
-
-.web-150-dpi-20231031-chicago-lifestyle-40-scaled-jpg {
-  border-radius: var(--border-radius-medium);
-  width: 510px;
-  height: 435px;
-  position: absolute;
-  left: 703px;
-  top: 115px;
   object-fit: cover;
 }
 
