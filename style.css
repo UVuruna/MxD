@@ -7,18 +7,25 @@
   background: #ffffff;
   height: 8227px;
   position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .title-frame {
   /* website-redesign-homepage */
-  width: 1728px;
+  width: 100%;
   height: 40px;
   margin-top: 30px;
   margin-bottom: 60px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.top-frame {
+  box-sizing: border-box;
+  height: 678px;
+  position: relative;
+  z-index: 1;
 }
 
 .MxD-logo-black {
@@ -28,9 +35,7 @@
   position: absolute;
   left: 58px;
   top: 50%;
-  /* Postavlja gornju ivicu elementa na 50% visine roditeljskog elementa */
   transform: translateY(-50%);
-  /* Pomera element nagore za 50% svoje visine kako bi bio centriran */
   object-fit: cover;
 }
 
@@ -38,45 +43,63 @@
   /* website-redesign-homepage > title-frame */
   display: flex;
   flex-direction: row;
-  gap: 48px;
+  gap: 35px;
   align-items: center;
   justify-content: flex-start;
   position: absolute;
   left: 969px;
   top: 50%;
-  /* Postavlja gornju ivicu elementa na 50% visine roditeljskog elementa */
   transform: translateY(-50%);
-  /* Pomera element nagore za 50% svoje visine kako bi bio centriran */
 }
 
-.services {
+.dropdown {
   /* website-redesign-homepage > title-frame > dropdown-frame */
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
   position: relative;
+  display: inline-block;
 }
 
-.verticles {
-  /* website-redesign-homepage > title-frame > dropdown-frame */
+.dropbtn {
+  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+  background-color: #ffffff;
   color: #000000;
-  text-align: left;
-  font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
-  position: relative;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-.marketing-solutions {
-  /* website-redesign-homepage > title-frame > dropdown-frame */
-  color: #000000;
-  text-align: left;
+.dropdown-content {
+  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   font-family: var(--font-family-primary);
-  font-size: 18px;
-  font-weight: 400;
-  position: relative;
+  white-space: nowrap;
+}
+
+.dropdown-content a {
+  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown > dropdown-content */
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown > dropdown-content */
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  /* website-redesign-homepage > title-frame > dropdown-frame > dropdown */
+  background-color: #f1f1f1;
 }
 
 .work-with-us {
@@ -96,6 +119,71 @@
   font-family: var(--font-family-primary);
   font-size: 18px;
   font-weight: 400;
+  cursor: pointer;
+}
+
+.top-frame-image-1 {
+  width: 1728px;
+  height: 678px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 1728/678;
+}
+
+.get-started-button, .contact-sales-button, .play-video-button {
+  width: 200px;
+  height: 58px;
+  border-radius: 10px;
+  top: 58%;
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  cursor: pointer;
+}
+.get-started-button {
+  background: #ffffff;
+  left: 35%;
+  color: #0065fa;
+  font-family: var(--font-family-primary);
+}
+.contact-sales-button {
+  background: #0065fa;
+  right: 35%;
+  color: #ffffff;
+  font-family: var(--font-family-primary);
+}
+.play-video-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* Boja teksta */
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%); /* Centriranje dugmeta */
+}
+
+.play-video-img {
+  margin-right: 10px; /* Razmak između slike i teksta */
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.powering-4-million-businesses-globally-ready-for-yours {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--font-family-primary);
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .rectangle-14 {
@@ -1827,15 +1915,6 @@
   left: 2363px;
   top: 5761px;
   overflow: visible;
-}
-
-.screenshot-2025-01-24-at-13-41-12-1 {
-  width: 1864px;
-  height: 674px;
-  position: absolute;
-  left: -68px;
-  top: 130px;
-  object-fit: cover;
 }
 
 .rectangle-110 {
