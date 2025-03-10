@@ -417,6 +417,7 @@
     }
 
     .powered-by-data-title {
+        /* website-redesign-homepage > our-approach */
         color: #ffffff;
         text-align: center;
         font-size: 55px;
@@ -428,6 +429,7 @@
         transform: translate(-50%, -50%);
     }
     .powered-by-data-text {
+        /* website-redesign-homepage > our-approach */
         color: #ffffff;
         text-align: center;
         font-size: 25px;
@@ -440,6 +442,7 @@
         transform: translate(-50%, -50%);
       }
     .powered-by-data-rectangle {
+        /* website-redesign-homepage > our-approach */
         background: #496bef;
         border-radius: var(--border-radius-medium);
         width: 43%;
@@ -451,12 +454,14 @@
         padding: 3.5em;
         }
         .powered-by-data-explain {
+            /* website-redesign-homepage > our-approach > powered-by-data-rectangle */
             color: #ffffff;
             text-align: justify;
             font-size: 16px;
             font-weight: 400;
           }
         .button-powered-by-data {
+            /* website-redesign-homepage > our-approach > powered-by-data-rectangle */
             background: #000000;
             border-radius: var(--border-radius-large);
             padding-inline: 2em;
@@ -471,6 +476,7 @@
             cursor: pointer;
             }
     .powered-by-data-img {
+        /* website-redesign-homepage > our-approach */
         border-radius: var(--border-radius-medium);
         width: 47%;
         height: 410px;
@@ -481,24 +487,216 @@
         left: 10%;
         }
 
+.lets-chat {
+    /* website-redesign-homepage */
+    background: #ffffff;
+    width: 100%;
+    height: 366px;
+    position: relative;
+    }
+    .lets-chat-title {
+        /* website-redesign-homepage > lets-chat */
+        color: #000000;
+        text-align: justify;
+        font-size: 55px;
+        font-weight: 600;
+        position: absolute;
+        top: 13%;
+        left: 10%;
+        }
+        
+    .lets-chat-text {
+        /* website-redesign-homepage > lets-chat */
+        color: #000000;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+        position: absolute;
+        width: 550px;
+        top: 44%;
+        left: 10%;
+        }     
+    
+    .lets-chat-form {
+        /* website-redesign-homepage > lets-chat */
+        width: 30%;
+        height: 60%;
+        position: relative;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+        top: 10%;
+        left: 50%;
+    }
+        #name, #email {
+            /* website-redesign-homepage > lets-chat > lets-chat-form */
+            border-radius: var(--border-radius-large);
+            border-style: solid;
+            border-color: #000000;
+            border-width: 1px;
+            width: 100%;
+            height: 50%;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            color: rgba(0, 0, 0, 0.5);
+            text-align: left;
+            padding: 0.8em 2em;
+            margin: 0.5em;
+            }
+        .button-lets-chat {
+            /* website-redesign-homepage > lets-chat > lets-chat-form */
+            background: #496bef;
+            border-radius: var(--border-radius-large);
+            width: 319px;
+            height: 46px;
+            position: absolute;
+            color: #fcfcfc;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            }
+            
+        
+.scaling-businesses-frame {
+    /* website-redesign-homepage */
+        background-image: url(Data/scaling-businesses-img.png);
+        background-size: cover;
+        opacity: 0.95;
+        background-color: #181818;
+        width: 100%;
+        height: 1350px;
+        position: relative;
+        }
+    .scaling-businesses-title {
+        /* website-redesign-homepage > scaling-businesses-frame */
+        color: #ffffff;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 600;
+        position: absolute;
+        width: 100%;
+        top: 8%;
+        }
+    .scaling-businesses-text-frame {
+        /* website-redesign-homepage > scaling-businesses-frame */
+        display: flex;
+        flex-direction: column;
+        gap: 73px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        }
+        .scaling-businesses-team-frame {
+            /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame */
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            }
+            .scaling-businesses-team-title {
+                /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-team-frame */
+                color: #ffffff;
+                text-align: left;
+                font-size: 45px;
+                font-weight: 600;
+                margin-bottom: 0.5em;
+            }
+            .scaling-businesses-team-explain {
+                /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-team-frame */
+                color: #ffffff;
+                text-align: justify;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        .scaling-businesses-support-frame {
+            /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame */
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            }
+            .scaling-businesses-support-title {
+                /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-support-frame */
+                color: #ffffff;
+                text-align: left;
+                font-size: 55px;
+                font-weight: 600;
+                margin-bottom: 0.5em;
+            }
+            .scaling-businesses-support-explain {
+                /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-support-frame */
+                color: #ffffff;
+                text-align: justify;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        .scaling-businesses-partner-frame {
+            /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame */
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+        }
+            .scaling-businesses-partner-title {
+                /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-partner-frame */
+                color: #ffffff;
+                text-align: left;
+                font-size: 55px;
+                font-weight: 600;
+                margin-bottom: 0.5em;
+            }
+            .scaling-businesses-partner-explain {
+                /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-partner-frame */
+                color: #ffffff;
+                text-align: justify;
+                font-size: 16px;
+                font-weight: 400;
+            }
+    .scaling-businesses-ellipse1 {
+        background: #496bef;
+        border-radius: var(--border-radius-half);
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 25%;
+        left: 60%;
+        transform: translate(-50% , -50%);
 
-
-
-
-
-.why-scaling-businesses-choose-mx-d {
-  color: #ffffff;
-  text-align: center;
-  
-  font-size: 55px;
-  font-weight: 600;
-  position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 4298px;
-  width: 1068px;
-}
-
+    }
+    .scaling-businesses-ellipse2 {
+        background: #496bef;
+        border-radius: var(--border-radius-half);
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50% , -50%);
+    }
+    .scaling-businesses-ellipse3 {
+        background: #496bef;
+        border-radius: var(--border-radius-half);
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 75%;
+        left: 60%;
+        transform: translate(-50% , -50%);
+    }
+    .scaling-businesses-vector {
+        height: 50%;
+        width: 1%;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50% , -50%);
+    } 
 
 
 .group-14 {
@@ -1540,158 +1738,6 @@
   overflow: visible;
 }
 
-.frame-4 {
-  display: flex;
-  flex-direction: column;
-  gap: 73px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 907px;
-  position: absolute;
-  left: 106px;
-  top: 4451px;
-}
-
-.group-51 {
-  flex-shrink: 0;
-  width: 656px;
-  height: 254px;
-  position: static;
-}
-
-.teams-of-expert-under-one-roof {
-  color: #ffffff;
-  text-align: left;
-  
-  font-size: 45px;
-  line-height: 80px;
-  font-weight: 600;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 656px;
-  height: 140px;
-}
-
-.we-offer-comprehensive-marketing-support-from-strategy-to-execution-make-decisions-with-a-clear-picture-of-your-growth-where-it-is-today-and-where-it-needs-to-go {
-  color: #ffffff;
-  text-align: justified;
-  
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 0px;
-  top: 175px;
-  width: 628px;
-  height: 79px;
-}
-
-.group-49 {
-  flex-shrink: 0;
-  width: 907px;
-  height: 259px;
-  position: static;
-}
-
-.expertise-and-dedicated-support {
-  color: #ffffff;
-  text-align: left;
-  
-  font-size: 55px;
-  line-height: 80px;
-  font-weight: 600;
-  position: absolute;
-  left: 0px;
-  top: 327px;
-  width: 907px;
-  height: 145px;
-}
-
-.get-marketing-expertise-that-is-focused-on-helping-you-reach-your-goals-get-a-dedicated-mx-d-marketing-team-with-expertise-across-industries-size-and-stage {
-  color: #ffffff;
-  text-align: justified;
-  
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 3px;
-  top: 507px;
-  width: 642px;
-  height: 79px;
-}
-
-.group-50 {
-  flex-shrink: 0;
-  width: 690px;
-  height: 259px;
-  position: static;
-}
-
-.a-partner-that-grows-with-you {
-  color: #ffffff;
-  text-align: left;
-  
-  font-size: 55px;
-  line-height: 80px;
-  font-weight: 600;
-  position: absolute;
-  left: 0px;
-  top: 659px;
-  width: 690px;
-  height: 145px;
-}
-
-.we-match-our-engagement-and-level-of-support-to-your-business-needs-whether-you-re-just-starting-out-or-scaling-quickly-we-re-here-to-partner-with-you-at-every-stage-of-your-journey {
-  color: #ffffff;
-  text-align: justified;
-  
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 3px;
-  top: 839px;
-  width: 642px;
-  height: 79px;
-}
-
-.ellipse-8 {
-  background: #496bef;
-  border-radius: var(--border-radius-half);
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  left: 885px;
-  top: 4475px;
-}
-
-.ellipse-9 {
-  background: #496bef;
-  border-radius: var(--border-radius-half);
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  left: 885px;
-  top: 4807px;
-}
-
-.vector-4 {
-  height: 659.5px;
-  position: absolute;
-  left: 899px;
-  top: 4493.5px;
-  overflow: visible;
-}
-
-.ellipse-10 {
-  background: #496bef;
-  border-radius: var(--border-radius-half);
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  left: 885px;
-  top: 5139px;
-}
-
 .we-help-business-like-yours-grow-revenue-profitabiliy {
   color: #000000;
   text-align: left;
@@ -1846,105 +1892,7 @@
   overflow: visible;
 }
 
-.rectangle-110 {
-  background: #ffffff;
-  width: 1768px;
-  height: 366px;
-  position: absolute;
-  left: -38px;
-  top: 3814px;
-}
 
-.get-in-touch-with-us2 {
-  color: #000000;
-  text-align: justified;
-  
-  font-size: 55px;
-  font-weight: 600;
-  position: absolute;
-  left: 156px;
-  top: 3890px;
-}
-
-.morem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nunc-vulputate-libero-et-velit-interdum-ac-aliquet-odio-mattis2 {
-  color: #000000;
-  text-align: justified;
-  
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 156px;
-  top: 3983px;
-  width: 550px;
-}
-
-.rectangle-818 {
-  background: #496bef;
-  border-radius: var(--border-radius-large);
-  width: 319px;
-  height: 46px;
-  position: absolute;
-  left: 1053px;
-  top: 4058px;
-}
-
-.let-s-chat2 {
-  color: #fcfcfc;
-  text-align: center;
-  
-  font-size: 18px;
-  font-weight: 500;
-  position: absolute;
-  left: 1153.12px;
-  top: 4068px;
-  width: 120.51px;
-}
-
-.rectangle-1093 {
-  border-radius: var(--border-radius-large);
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 444px;
-  height: 49px;
-  position: absolute;
-  left: 991px;
-  top: 3974px;
-}
-
-.email2 {
-  color: rgba(0, 0, 0, 0.5);
-  text-align: left;
-  
-  font-size: 18px;
-  font-weight: 500;
-  position: absolute;
-  left: 1032px;
-  top: 3985px;
-}
-
-.rectangle-1094 {
-  border-radius: var(--border-radius-large);
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 444px;
-  height: 49px;
-  position: absolute;
-  left: 991px;
-  top: 3900px;
-}
-
-.name2 {
-  color: rgba(0, 0, 0, 0.5);
-  text-align: left;
-  
-  font-size: 18px;
-  font-weight: 500;
-  position: absolute;
-  left: 1032px;
-  top: 3911px;
-}
 
 .image-40-cea-7-jpeg {
   border-radius: var(--border-radius-top-small);
