@@ -64,6 +64,12 @@
   color: #000000;
 }
 
+@media (max-width: 1300px) {
+  .our-services-frame {
+    padding: 20px 32px 20px 32px;
+  }
+}
+
 @media (max-width: 768px) {
   .our-services-frame {
     padding: 20px 32px 20px 32px;

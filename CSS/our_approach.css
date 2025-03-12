@@ -143,6 +143,57 @@
   left: 100px;
 }
 
+@media (max-width: 1300px) {
+  .our-approach-frame {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 60px 120px 60px;
+  }
+  .our-approach-title {
+    font-size: 120px;
+  }
+  .data-driven-text {
+    font-size: 40px;
+    line-height: 1.5em;
+  }
+  .data-driven-explain {
+    font-size: 14px;
+    margin: 25px 0 25px 0;
+  }
+
+  .powered-by-data-title {
+    font-size: 40px;
+  }
+  
+  .powered-by-data-text {
+    font-size: 18px;
+  }
+
+  .powered-by-data-rectangle {
+    background: #496bef;
+    border-radius: 20px;
+    width: 60%;
+    height: 50%;
+    bottom: 0;
+    right: 20px;
+    padding: 25px;
+    align-items: center;
+  }
+  .powered-by-data-img {
+    border-radius: 20px;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    mix-blend-mode: luminosity;
+    object-fit: cover;
+    bottom: 40px;
+    left: 20px;
+  }
+
+}
+
 @media (max-width: 768px) {
   .our-approach-frame {
     margin-top: 30px;

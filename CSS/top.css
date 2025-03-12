@@ -89,6 +89,24 @@
     aspect-ratio: 1;
 }
 
+@media (max-width: 1300px) {
+    .top-frame-text {
+        /* -- 3 -- */
+        font-size: 60px;
+        font-weight: 400;
+        top: 20%;
+    }
+    .get-started {
+        /* -- 3 -- */
+        left: 15%;
+    }
+    
+    .contact-sales {
+        /* -- 3 -- */
+        right: 15%;
+    }
+}
+
 /* Stilovi za telefone */
 @media (max-width: 768px) {
     .top-frame {
