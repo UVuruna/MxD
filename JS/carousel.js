@@ -1,39 +1,61 @@
 function initializeCarousel(carouselId) {
-  const carousel = document.querySelector(carouselId);
-  const prev = carousel.querySelector(".prev");
-  const next = carousel.querySelector(".next");
-  const track = carousel.querySelector(".track");
-  const cards = carousel.querySelectorAll(".card-container");
+  var checkExist = setInterval(function () {
+      const carousel = document.querySelector(carouselId);
 
-  let cardWidth = cards[0].offsetWidth;
-  let carouselWidth = carousel.offsetWidth;
-  let index = 0;
+      if (carousel) {
+          const prev = carousel.querySelector(".prev");
+          const next = carousel.querySelector(".next");
+          const track = carousel.querySelector(".track");
+          const cards = carousel.querySelectorAll(".card-container");
 
-  window.addEventListener("resize", function () {
-    cardWidth = cards[0].offsetWidth;
-  });
+          if (prev && next && track && cards.length > 0) {
+              clearInterval(checkExist); // Zaustavi proveru kada pronađe elemente
 
-  next.addEventListener("click", function (e) {
-    e.preventDefault();
-    index = index + 1;
-    prev.classList.add("show");
-    track.style.transform = "translateX(" + index * -cardWidth + "px)";
-    console.log(carouselWidth)
-    console.log(track.offsetWidth - index * cardWidth)
-    if (track.offsetWidth - index * cardWidth < carouselWidth) {
-      next.classList.add("hide");
-    }
-  });
+              let cardWidth = cards[0].offsetWidth;
+              let carouselWidth = carousel.offsetWidth;
+              let index = 0;
 
-  prev.addEventListener("click", function () {
-    index = index - 1;
-    next.classList.remove("hide");
-    if (index === 0) {
-      prev.classList.remove("show");
-    }
-    track.style.transform = "translateX(" + index * -cardWidth + "px)";
-  });
+              function updateDimensions() {
+                  cardWidth = cards[0].offsetWidth;
+                  carouselWidth = carousel.offsetWidth;
+                  track.style.transform = "translateX(" + index * -cardWidth + "px)";
+              }
+
+              window.addEventListener("resize", updateDimensions);
+
+              next.addEventListener("click", function (e) {
+                  e.preventDefault();
+                  if (index < cards.length - 1) {
+                      index++;
+                      track.style.transform = "translateX(" + index * -cardWidth + "px)";
+                      prev.classList.add("show");
+                  }
+
+                  if (track.offsetWidth - index * cardWidth <= carouselWidth) {
+                      next.classList.add("hide");
+                  }
+              });
+
+              prev.addEventListener("click", function () {
+                  if (index > 0) {
+                      index--;
+                      track.style.transform = "translateX(" + index * -cardWidth + "px)";
+                      next.classList.remove("hide");
+                  }
+
+                  if (index === 0) {
+                      prev.classList.remove("show");
+                  }
+              });
+
+              console.log(`Carousel "${carouselId}" uspešno inicijalizovan!`);
+          } else {
+              console.log(`Čekam elemente unutar "${carouselId}"...`);
+          }
+      }
+  }, 30);
 }
 
+// Pozivanje za različite karusele
 initializeCarousel("#partners-carousel");
 initializeCarousel("#verticles-carousel");

@@ -18,7 +18,7 @@ function height_calc (heightFrom, heightTo) {
         } else {
           console.log('Čekam da se pojave elementi:', heightFrom, heightTo)
         }
-      }, 100) // Proverava na svakih 100ms dok ne pronađe elemente
+      }, 30) // Proverava na svakih 100ms dok ne pronađe elemente
     } else {
       console.log('Medijski upit je aktivan, kod se ne izvršava.')
     }

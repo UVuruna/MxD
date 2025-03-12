@@ -1,172 +1,165 @@
 .partners-frame {
-    /* website-redesign-homepage */
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin-top: 60px;
 }
 
 .partners-title {
-    /* website-redesign-homepage > partners-frame */
-    color: #000000;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    left: 50%;
-    transform: translateX(-50%);
-    position: relative;
+  color: #000000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  margin-bottom: 30px;
 }
 
 .button.partners {
-    background: #000000;
-    width: 216px;
-    height: 46px;
-    position: absolute;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 500;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+  background: #000000;
+  width: 216px;
+  height: 46px;
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #partners-carousel {
-    /* website-redesign-homepage > partners-frame */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width: 90%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-@media (max-width: 768px) {
-    #partners-carousel {
-        width: 95%;
-    }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .inner-carousel {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .carousel-container.img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .track {
-    display: inline-flex;
-    transition: transform 0.2s ease-in-out;
+  display: inline-flex;
+  transition: transform 0.2s ease-in-out;
 }
 
 .partner.card-container {
-    width: 275px;
-    height: 200px;
-    flex-shrink: 0;
-    padding-right: 10px;
-}
-
-@media (max-width: 768px) {
-    .partner.card-container {
-        width: 184px;
-    }
+  width: 275px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-right: 10px;
 }
 
 .partner.card {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: center;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .partner.card1 {
-    background-image: url("../Data/Images/partners-img-terra.png");
+  background-image: url('../Data/Images/partners-img-terra.png');
 }
-
 .partner.card2 {
-    background-image: url("../Data/Images/partners-img-hill-co.png");
+  background-image: url('../Data/Images/partners-img-hill-co.png');
 }
-
 .partner.card3 {
-    background-image: url("../Data/Images/partners-img-leaf.svg");
+  background-image: url('../Data/Images/partners-img-leaf.svg');
 }
-
 .partner.card4 {
-    background-image: url("../Data/Images/partners-img-an-retreats.png");
+  background-image: url('../Data/Images/partners-img-an-retreats.png');
 }
-
 .partner.card5 {
-    background-image: url("../Data/Images/partners-img-bottoms-up.png");
+  background-image: url('../Data/Images/partners-img-bottoms-up.png');
 }
-
 .partner.card6 {
-    background-image: url("../Data/Images/partners-img-cleartrip.png");
+  background-image: url('../Data/Images/partners-img-cleartrip.png');
 }
-
 .partner.card7 {
-    background-image: url("../Data/Images/partners-img-fly-dubai.png");
+  background-image: url('../Data/Images/partners-img-fly-dubai.png');
 }
-
 .partner.card8 {
-    background-image: url("../Data/Images/partners-img-ifeelgood.png");
+  background-image: url('../Data/Images/partners-img-ifeelgood.png');
 }
-
 .partner.card9 {
-    background-image: url("../Data/Images/partners-img-movewithus.png");
+  background-image: url('../Data/Images/partners-img-movewithus.png');
 }
-
 .partner.card10 {
-    background-image: url("../Data/Images/partners-img-viewpoint.svg");
+  background-image: url('../Data/Images/partners-img-viewpoint.svg');
 }
-
 .partner.card11 {
-    background-image: url("../Data/Images/partners-img-clinic27.png");
+  background-image: url('../Data/Images/partners-img-clinic27.png');
 }
-
 .partner.card12 {
-    background-image: url("../Data/Images/partners-img-completechiropractic.svg");
+  background-image: url('../Data/Images/partners-img-completechiropractic.svg');
 }
-
 .partner.card13 {
-    background-image: url("../Data/Images/partners-img-guy.svg");
+  background-image: url('../Data/Images/partners-img-guy.svg');
 }
-
 .partner.card14 {
-    background-image: url("../Data/Images/partners-img-prdsurveyservices.png");
+  background-image: url('../Data/Images/partners-img-prdsurveyservices.png');
 }
 
 .nav button {
-    position: absolute;
-    top: 50%;
-    transform: translatey(-50%);
-    width: 60px;
-    height: 60px;
-    outline: none;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 60px;
+  height: 60px;
+  outline: none;
 }
 
 .nav .prev {
-    background-image: url("../Data/Images/nav-prev.svg");
-    background-size: cover;
-    opacity: 0.6;
-    left: -30px;
-    display: none;
+  background-image: url('../Data/Images/nav-prev.svg');
+  background-size: cover;
+  opacity: 0.6;
+  left: -30px;
+  display: none;
 }
 
 .nav .prev.show {
-    display: block;
+  display: block;
 }
 
 .nav .next {
-    background-image: url("../Data/Images/nav-next.svg");
-    background-size: cover;
-    opacity: 0.6;
-    right: -30px;
+  background-image: url('../Data/Images/nav-next.svg');
+  background-size: cover;
+  opacity: 0.6;
+  right: -30px;
 }
 
 .nav .next.hide {
-    display: none;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .partners-frame {
+    width: 100%;
+    margin-top: 20px;
+    padding: 2em;
+  }
+  #partners-carousel {
+    width: 95%;
+  }
+  .partner.card-container {
+    width: 130px;
+    height: 100px;
+  }
+  .partners-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
 }
