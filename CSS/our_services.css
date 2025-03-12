@@ -1,0 +1,125 @@
+.our-services-frame {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.our-services-text-frame {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+}
+
+.our-services-title {
+    color: #000000;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.our-services-explain {
+    color: #000000;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 3em;
+}
+
+.our-services-button-frame {
+    display: block;
+    width: 65%;
+    height: 100%;
+}
+
+.our-services-button-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 33%;
+    margin: 2em 0;
+}
+
+.button.service-strategy {
+    width: 183px;
+    height: 46px;
+    background: #040000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-data-ai {
+    width: 183px;
+    height: 46px;
+    background: #d1cece;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-b2b-marketing {
+    width: 216px;
+    height: 46px;
+    background: #496bef;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-go-to-market-strategy {
+    width: 294px;
+    height: 46px;
+    background: #d1cece;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-cmo-marketing {
+    width: 249px;
+    height: 46px;
+    background: #496bef;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-growth-marketing {
+    width: 276px;
+    height: 46px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-high-intent-lead {
+    width: 235px;
+    height: 46px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-generation {
+    width: 183px;
+    height: 46px;
+    background: #d1cece;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button.service-market-expansion {
+    width: 244px;
+    height: 46px;
+    background: #496bef;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}

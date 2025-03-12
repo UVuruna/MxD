@@ -1,0 +1,79 @@
+.top-frame {
+    /* website-redesign-homepage */
+    width: 100%;
+    height: 678px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.top-frame-image-1 {
+    /* website-redesign-homepage > top-frame */
+    width: 1728px;
+    height: 678px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    aspect-ratio: 1728/678;
+}
+
+.top-frame-text {
+    /* website-redesign-homepage > top-frame */
+    color: #ffffff;
+    text-align: center;
+
+    font-size: 64px;
+    font-weight: 400;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.button.get-started, .button.contact-sales, .button.play-video {
+    /* website-redesign-homepage > top-frame */
+    width: 200px;
+    height: 58px;
+    border-radius: 10px;
+    top: 58%;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.button.get-started {
+    /* website-redesign-homepage > top-frame */
+    background: #ffffff;
+    left: 35%;
+    color: #0065fa;
+}
+
+.button.contact-sales {
+    /* website-redesign-homepage > top-frame */
+    background: #0065fa;
+    right: 35%;
+    color: #ffffff;
+}
+
+.button.play-video {
+    /* website-redesign-homepage > top-frame */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    /* Boja teksta */
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.play-video-img {
+    /* website-redesign-homepage > top-frame > button-play-video */
+    margin-right: 10px;
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}

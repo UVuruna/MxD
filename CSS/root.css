@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    max-width: 1860px;
+    margin: 0 auto;
+    background: #ffffff;
+    display: block;
+    font-family: "Poppins";
+}
+
+button {
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+button, 
+button:active, 
+button:focus {
+    -webkit-tap-highlight-color: transparent;
+};
+
+button.blue {
+    color: #ffffff;
+    background: #496bef;
+}
+button.blue:hover {
+    background: #8cbcff;
+}
+button.blue:active {
+    background: #0022a8;
+}
+
+
+button.white {
+    color: #000000;
+    background: #ffffff;
+}
+button.white:hover {
+    background: #eeeeee;
+}
+button.white:active {
+    background: #a3a3a3;
+}

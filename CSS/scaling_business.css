@@ -1,0 +1,152 @@
+.scaling-businesses-frame {
+    /* website-redesign-homepage */
+    background-image: url("Data/Images/scaling-businesses-img.png");
+    background-size: cover;
+    opacity: 0.95;
+    background-color: #181818;
+    width: 100%;
+    height: 1350px;
+    position: relative;
+}
+
+.scaling-businesses-title {
+    /* website-redesign-homepage > scaling-businesses-frame */
+    color: #ffffff;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    top: 8%;
+}
+
+.scaling-businesses-text-frame {
+    /* website-redesign-homepage > scaling-businesses-frame */
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.scaling-businesses-team-frame {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame */
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.scaling-businesses-team-title {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-team-frame */
+    color: #ffffff;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.scaling-businesses-team-explain {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-team-frame */
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.scaling-businesses-support-frame {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame */
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.scaling-businesses-support-title {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-support-frame */
+    color: #ffffff;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.scaling-businesses-support-explain {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-support-frame */
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.scaling-businesses-partner-frame {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame */
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.scaling-businesses-partner-title {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-partner-frame */
+    color: #ffffff;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.scaling-businesses-partner-explain {
+    /* website-redesign-homepage > scaling-businesses-frame > scaling-businesses-text-frame > scaling-businesses-partner-frame */
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.scaling-businesses-ellipse1 {
+    /* website-redesign-homepage > scaling-businesses-frame */
+    background: #496bef;
+    border-radius: var(--border-radius-half);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.scaling-businesses-ellipse2 {
+    /* website-redesign-homepage > scaling-businesses-frame */
+    background: #496bef;
+    border-radius: var(--border-radius-half);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.scaling-businesses-ellipse3 {
+    /* website-redesign-homepage > scaling-businesses-frame */
+    background: #496bef;
+    border-radius: var(--border-radius-half);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.scaling-businesses-vector {
+    /* website-redesign-homepage > scaling-businesses-frame */
+    height: 50%;
+    width: 1%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}

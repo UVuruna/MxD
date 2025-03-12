@@ -1,0 +1,152 @@
+.verticles-frame {
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+}
+
+.verticles-title {
+    color: #000000;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.verticles-text {
+    color: #000000;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 1104px;
+    margin-bottom: 60px;
+}
+
+#verticles-carousel {
+    /* website-redesign-homepage > verticles-frame */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    #verticles-carousel {
+        width: 95%;
+    }
+}
+
+.verticles.card-container {
+    width: 300px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .verticles.card-container {
+        width: 250px;
+    }
+}
+
+.verticles.card {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: center;
+    background-repeat: no-repeat;
+}
+
+.verticles.cardtitle {
+    padding: 25px 25px 0 25px;
+    font-size: 25px;
+    font-weight: 500;
+    height: 80px;
+    line-height: 1.2;
+}
+
+.verticles.cardtext {
+    padding: 25px 25px 25px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100px;
+}
+
+.verticles.card1 {
+    background-image: url("Data/Images/verticles-direct-to-consumer.png");
+}
+
+.verticles.card2 {
+    background-image: url("Data/Images/verticles-b2b-marketing.png");
+}
+
+.verticles.card3 {
+    background-image: url("Data/Images/verticles-consumer-services.png");
+}
+
+.verticles.card4 {
+    background-color: #FFF7F7;
+}
+
+.verticles.card5 {
+    background-color: #EEEAEA;
+}
+
+.verticles.card6 {
+    background-color: #B1C1FE;
+}
+
+.verticles.card7 {
+    background-color: #646060;
+}
+
+.verticles.card8 {
+    background-color: #FFF7F7;
+}
+
+.verticles.card9 {
+    background-color: #EEEAEA;
+}
+
+
+.verticles.card-bottom-frame1 {
+    background-color: #D9D9D9;
+}
+
+.verticles.card-bottom-frame2 {
+    background-color: #496BEF;
+    color: #FFFFFF;
+}
+
+.verticles.card-bottom-frame3 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.verticles.card-bottom-frame4 {
+    background-color: #FFFFFF;
+}
+
+.verticles.card-bottom-frame5 {
+    background-color: #D9D9D9;
+}
+
+.verticles.card-bottom-frame6 {
+    background-color: #496BEF;
+    color: #FFFFFF;
+}
+
+.verticles.card-bottom-frame7 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.verticles.card-bottom-frame8 {
+    background-color: #FFFFFF;
+}
+
+.verticles.card-bottom-frame9 {
+    background-color: #D9D9D9;
+}

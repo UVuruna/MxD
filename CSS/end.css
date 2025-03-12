@@ -1,0 +1,62 @@
+.contact-frame {
+    box-sizing: border-box;
+    background: #181818;
+    width: 100%;
+    height: 884px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.contact-1-frame, .contact-2-frame, .contact-3-frame, .contact-4-frame {
+    box-sizing: border-box;
+}
+
+.contact-3-frame {
+    width: 100%;
+    height: 100%;
+}
+
+.MxD-logo-white {
+    position: relative;
+    padding: 20px 80px;
+    object-fit: cover;
+}
+
+.contact-4-frame {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.contact-services-list, .contact-verticles-list, .contact-marketing-solutions-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    flex-grow: 1;
+
+    max-width: 200px;
+    margin-right: 20px;
+
+}
+
+.contact-title-frame {
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-services-list a, .contact-verticles-list a, .contact-marketing-solutions-list a {
+    color: inherit;
+    text-decoration: none;
+    padding: 5px 0;
+    color: #80868a;
+    white-space: normal;
+}

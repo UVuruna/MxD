@@ -1,0 +1,143 @@
+.our-approach-frame {
+    /* website-redesign-homepage */
+    background: #181818;
+    height: 1600px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.our-approach-title {
+    /* website-redesign-homepage > our-approach */
+    color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 220px;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+}
+
+.our-approach-text {
+    /* website-redesign-homepage > our-approach */
+    color: #ffffff;
+    text-align: left;
+    font-size: 55px;
+    line-height: 80px;
+    font-weight: 600;
+    position: absolute;
+    width: 844px;
+    top: 13%;
+    left: 6%;
+}
+
+.our-approach-explain {
+    /* website-redesign-homepage > our-approach */
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    width: 36%;
+    top: 28%;
+    left: 6%;
+    text-align: justify;
+}
+
+.button.our-approach {
+    /* website-redesign-homepage > our-approach */
+    background: #496bef;
+    width: 216px;
+    height: 46px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    font-weight: medium;
+    font-size: 18px;
+    top: 40%;
+    left: 6%;
+}
+
+.our-approach-img {
+    /* website-redesign-homepage > our-approach */
+    border-radius: var(--border-radius-medium);
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    mix-blend-mode: lighten;
+    object-fit: cover;
+    top: 22%;
+    left: 50%;
+}
+
+.powered-by-data-title {
+    /* website-redesign-homepage > our-approach */
+    color: #ffffff;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    position: absolute;
+    width: 45%;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.powered-by-data-text {
+    /* website-redesign-homepage > our-approach */
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 400;
+    position: absolute;
+    width: 45%;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.powered-by-data-rectangle {
+    /* website-redesign-homepage > our-approach */
+    background: #496bef;
+    border-radius: var(--border-radius-medium);
+    width: 43%;
+    height: 235px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    z-index: 1;
+    padding: 3.5em;
+}
+
+.powered-by-data-explain {
+    /* website-redesign-homepage > our-approach > powered-by-data-rectangle */
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button.powered-by-data {
+    /* website-redesign-homepage > our-approach > powered-by-data-rectangle */
+    background: #000000;
+    padding-inline: 2em;
+    height: 46px;
+    position: absolute;
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    left: 3em;
+    bottom: 10%;
+}
+
+.powered-by-data-img {
+    /* website-redesign-homepage > our-approach */
+    border-radius: var(--border-radius-medium);
+    width: 47%;
+    height: 410px;
+    position: absolute;
+    mix-blend-mode: luminosity;
+    object-fit: cover;
+    top: 63%;
+    left: 10%;
+}
