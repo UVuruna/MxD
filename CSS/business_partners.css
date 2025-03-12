@@ -113,46 +113,14 @@
   background-image: url('../Data/Images/partners-img-prdsurveyservices.png');
 }
 
-.nav button {
-  position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  width: 60px;
-  height: 60px;
-  outline: none;
-}
-
-.nav .prev {
-  background-image: url('../Data/Images/nav-prev.svg');
-  background-size: cover;
-  opacity: 0.6;
-  left: -30px;
-  display: none;
-}
-
-.nav .prev.show {
-  display: block;
-}
-
-.nav .next {
-  background-image: url('../Data/Images/nav-next.svg');
-  background-size: cover;
-  opacity: 0.6;
-  right: -30px;
-}
-
-.nav .next.hide {
-  display: none;
-}
-
 @media (max-width: 768px) {
   .partners-frame {
     width: 100%;
     margin-top: 20px;
-    padding: 2em;
+    padding: 0;
   }
   #partners-carousel {
-    width: 95%;
+    width: 100%;
   }
   .partner.card-container {
     width: 130px;
@@ -161,5 +129,8 @@
   .partners-title {
     font-size: 18px;
     margin-bottom: 10px;
+  }
+  .partners-frame .track {
+    padding: 20px;
   }
 }

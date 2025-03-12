@@ -56,6 +56,5 @@ function initializeCarousel(carouselId) {
   }, 30);
 }
 
-// Pozivanje za različite karusele
 initializeCarousel("#partners-carousel");
 initializeCarousel("#verticles-carousel");

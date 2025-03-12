@@ -60,3 +60,48 @@ button.black:hover {
 button.black:active {
   background: #1a0000;
 }
+
+button.gray {
+  color: #000000;
+  background: #d1cece;
+}
+button.gray:hover {
+  font-weight: 600;
+  background: #c2b9de;
+}
+button.gray:active {
+  background: #887ba2;
+}
+
+
+.nav button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 60px;
+  height: 60px;
+  outline: none;
+}
+
+.nav .prev {
+  background-image: url('../Data/Images/nav-prev.svg');
+  background-size: cover;
+  opacity: 0.6;
+  left: 0;
+  display: none;
+}
+
+.nav .prev.show {
+  display: block;
+}
+
+.nav .next {
+  background-image: url('../Data/Images/nav-next.svg');
+  background-size: cover;
+  opacity: 0.6;
+  right: 0;
+}
+
+.nav .next.hide {
+  display: none;
+}

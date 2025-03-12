@@ -25,6 +25,4 @@ function trackPositions(element1, element2, targetElement) {
     }, 30);
 }
 
-
-// Poziv funkcije sa selektorima
 trackPositions("#dot-start", "#dot-end", ".scaling-business-vector");

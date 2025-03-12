@@ -62,7 +62,7 @@
     margin: 0.5em;
 }
 
-.button.blue {
+.lets-chat-frame .button.blue {
     background: #496bef;
     width: 319px;
     height: 46px;
@@ -113,7 +113,7 @@
         font-size: 15px;
     }
     
-    .button.blue {
+    .lets-chat-frame .button.blue {
         background: #496bef;
         width: 250px;
         height: 40px;

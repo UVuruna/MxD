@@ -23,7 +23,6 @@ function height_calc (heightFrom, heightTo) {
       console.log('Medijski upit je aktivan, kod se ne izvršava.')
     }
   }
-
   // Pozivaj odmah na učitavanje stranice
   checkMediaQuery()
 
@@ -31,7 +30,7 @@ function height_calc (heightFrom, heightTo) {
   mediaQuery.addEventListener('change', checkMediaQuery)
 }
 
-// Pozivi funkcije
 height_calc('#what-we-do-1', '#what-we-do-2')
 height_calc('#who-we-are-1', '#who-we-are-2')
 height_calc('.data-driven-frame', '.powered-by-data-frame')
+height_calc('.contact-1-frame', '.contact-2-frame')

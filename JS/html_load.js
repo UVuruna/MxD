@@ -13,3 +13,6 @@ loadHTML("ai_chat", "../HTML/ai_chat.html");
 loadHTML("scaling_business", "../HTML/scaling_business.html");
 loadHTML("business_partners", "../HTML/business_partners.html");
 loadHTML("our_services", "../HTML/our_services.html");
+loadHTML("our_verticles", "../HTML/our_verticles.html");
+loadHTML("contact_us", "../HTML/contact_us.html");
+loadHTML("end", "../HTML/end.html");
