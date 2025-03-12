@@ -1,45 +1,62 @@
 body {
-    box-sizing: border-box;
-    max-width: 1860px;
-    margin: 0 auto;
-    background: #ffffff;
-    display: block;
-    font-family: "Poppins";
+  box-sizing: border-box;
+  max-width: 1860px;
+  margin: 0 auto;
+  background: #ffffff;
+  display: block;
+  font-family: 'Poppins';
 }
 
-button {
-    border-radius: 100px;
-    cursor: pointer;
+button,
+.button {
+  border-radius: 100px;
+  cursor: pointer;
 }
 
-button, 
-button:active, 
-button:focus {
-    -webkit-tap-highlight-color: transparent;
-};
-
-
-button.blue {
-    color: #ffffff;
-    background: #496bef;
-}
-button.blue:hover {
-    font-weight: 600;
-    background: #8cbcff;
-}
-button.blue:active {
-    background: #0022a8;
+button,
+button:active,
+button:focus,
+.button,
+.button:active,
+.button:focus {
+  -webkit-tap-highlight-color: transparent;
 }
 
+button.blue,
+.button.blue {
+  color: #ffffff;
+  background: #496bef;
+}
+button.blue:hover,
+.button.blue:hover {
+  font-weight: 600;
+  background: #8cbcff;
+}
+button.blue:active,
+.button.blue:active {
+  background: #0022a8;
+}
 
 button.white {
-    color: #000000;
-    background: #ffffff;
+  color: #000000;
+  background: #ffffff;
 }
 button.white:hover {
-    font-weight: 600;
-    background: #c0c8ba;
+  font-weight: 600;
+  background: #c0c8ba;
 }
 button.white:active {
-    background: #a3a3a3;
+  background: #a3a3a3;
+}
+
+button.black {
+  color: #ffffff;
+  background: #000000;
+}
+button.black:hover {
+  font-weight: 600;
+  background: #202020;
+}
+button.black:active {
+  background: #1a0000;
 }

@@ -75,15 +75,15 @@
 }
 
 .verticles.card1 {
-    background-image: url("Data/Images/verticles-direct-to-consumer.png");
+    background-image: url("../Data/Images/verticles-direct-to-consumer.png");
 }
 
 .verticles.card2 {
-    background-image: url("Data/Images/verticles-b2b-marketing.png");
+    background-image: url("../Data/Images/verticles-b2b-marketing.png");
 }
 
 .verticles.card3 {
-    background-image: url("Data/Images/verticles-consumer-services.png");
+    background-image: url("../Data/Images/verticles-consumer-services.png");
 }
 
 .verticles.card4 {

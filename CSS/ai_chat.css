@@ -1,55 +1,57 @@
 .lets-chat-frame {
-    /* website-redesign-homepage */
     background: #ffffff;
     width: 100%;
-    height: 366px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px 50px 100px;
+}
+
+.lets-chat-1 {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.lets-chat-2 {
+    width: 50%;
     position: relative;
 }
 
 .lets-chat-title {
-    /* website-redesign-homepage > lets-chat */
     color: #000000;
-    text-align: justify;
     font-size: 55px;
     font-weight: 600;
-    position: absolute;
-    top: 13%;
-    left: 10%;
+    position: relative;
 }
 
 .lets-chat-text {
-    /* website-redesign-homepage > lets-chat */
     color: #000000;
     text-align: justify;
     font-size: 16px;
     font-weight: 400;
-    position: absolute;
-    width: 550px;
-    top: 44%;
-    left: 10%;
+    position: relative;
+    max-width: 550px;
 }
 
 .lets-chat-form {
-    /* website-redesign-homepage > lets-chat */
-    width: 30%;
-    height: 60%;
+    width: 95%;
+    max-width: 500px;
     position: relative;
     color: rgba(0, 0, 0, 0.5);
-    text-align: left;
     font-size: 18px;
     font-weight: 500;
-    top: 10%;
-    left: 50%;
 }
 
 #name, #email {
-    /* website-redesign-homepage > lets-chat > lets-chat-form */
+    width: 95%;
+    max-width: 500px;
     background-color: #FFFFFF;
-    border-radius: var(--border-radius-large);
+    border-radius: 100px;
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
-    width: 500px;
     height: 50px;
     font-size: 18px;
     font-weight: 500;
@@ -60,19 +62,65 @@
     margin: 0.5em;
 }
 
-.button.lets-chat {
-    /* website-redesign-homepage > lets-chat > lets-chat-form */
+.button.blue {
     background: #496bef;
     width: 319px;
     height: 46px;
-    position: absolute;
+    position: relative;
     color: #fcfcfc;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    margin-top: 5%;
+    margin-top: 25px;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: var(--border-radius-large);
-    cursor: pointer;
+}
+
+/* Stilovi za telefone */
+@media (max-width: 768px) {
+    .lets-chat-frame {
+        padding: 15px 10px 15px 10px;
+        flex-direction: column;
+    }
+    .lets-chat-1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .lets-chat-2 {
+        width: 100%;
+    }
+    
+    .lets-chat-title {
+        font-size: 35px;
+    }
+    
+    .lets-chat-text {
+        font-size: 13px;
+        width: 80%;
+    }
+    
+    .lets-chat-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #name, #email {
+        width: 80%;
+        border-radius: 60px;
+        padding: 0.5em 1em;
+        font-size: 15px;
+    }
+    
+    .button.blue {
+        background: #496bef;
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+        position: relative;
+        left: 0;
+        transform: none;
+        margin-top: 10px;
+    }
 }

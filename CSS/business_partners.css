@@ -84,59 +84,59 @@
 }
 
 .partner.card1 {
-    background-image: url("Data/Images/partners-img-terra.png");
+    background-image: url("../Data/Images/partners-img-terra.png");
 }
 
 .partner.card2 {
-    background-image: url("Data/Images/partners-img-hill-co.png");
+    background-image: url("../Data/Images/partners-img-hill-co.png");
 }
 
 .partner.card3 {
-    background-image: url("Data/Images/partners-img-leaf.svg");
+    background-image: url("../Data/Images/partners-img-leaf.svg");
 }
 
 .partner.card4 {
-    background-image: url("Data/Images/partners-img-an-retreats.png");
+    background-image: url("../Data/Images/partners-img-an-retreats.png");
 }
 
 .partner.card5 {
-    background-image: url("Data/Images/partners-img-bottoms-up.png");
+    background-image: url("../Data/Images/partners-img-bottoms-up.png");
 }
 
 .partner.card6 {
-    background-image: url("Data/Images/partners-img-cleartrip.png");
+    background-image: url("../Data/Images/partners-img-cleartrip.png");
 }
 
 .partner.card7 {
-    background-image: url("Data/Images/partners-img-fly-dubai.png");
+    background-image: url("../Data/Images/partners-img-fly-dubai.png");
 }
 
 .partner.card8 {
-    background-image: url("Data/Images/partners-img-ifeelgood.png");
+    background-image: url("../Data/Images/partners-img-ifeelgood.png");
 }
 
 .partner.card9 {
-    background-image: url("Data/Images/partners-img-movewithus.png");
+    background-image: url("../Data/Images/partners-img-movewithus.png");
 }
 
 .partner.card10 {
-    background-image: url("Data/Images/partners-img-viewpoint.svg");
+    background-image: url("../Data/Images/partners-img-viewpoint.svg");
 }
 
 .partner.card11 {
-    background-image: url("Data/Images/partners-img-clinic27.png");
+    background-image: url("../Data/Images/partners-img-clinic27.png");
 }
 
 .partner.card12 {
-    background-image: url("Data/Images/partners-img-completechiropractic.svg");
+    background-image: url("../Data/Images/partners-img-completechiropractic.svg");
 }
 
 .partner.card13 {
-    background-image: url("Data/Images/partners-img-guy.svg");
+    background-image: url("../Data/Images/partners-img-guy.svg");
 }
 
 .partner.card14 {
-    background-image: url("Data/Images/partners-img-prdsurveyservices.png");
+    background-image: url("../Data/Images/partners-img-prdsurveyservices.png");
 }
 
 .nav button {
@@ -149,7 +149,7 @@
 }
 
 .nav .prev {
-    background-image: url("Data/Images/nav-prev.svg");
+    background-image: url("../Data/Images/nav-prev.svg");
     background-size: cover;
     opacity: 0.6;
     left: -30px;
@@ -161,7 +161,7 @@
 }
 
 .nav .next {
-    background-image: url("Data/Images/nav-next.svg");
+    background-image: url("../Data/Images/nav-next.svg");
     background-size: cover;
     opacity: 0.6;
     right: -30px;
