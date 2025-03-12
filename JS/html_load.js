@@ -7,3 +7,4 @@ function loadHTML(elementId, filePath) {
 
 loadHTML("title", "../HTML/title.html");
 loadHTML("top", "../HTML/top.html");
+loadHTML("about_us", "../HTML/about_us.html");
