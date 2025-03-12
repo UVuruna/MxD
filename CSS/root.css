@@ -18,11 +18,13 @@ button:focus {
     -webkit-tap-highlight-color: transparent;
 };
 
+
 button.blue {
     color: #ffffff;
     background: #496bef;
 }
 button.blue:hover {
+    font-weight: 600;
     background: #8cbcff;
 }
 button.blue:active {
@@ -35,7 +37,8 @@ button.white {
     background: #ffffff;
 }
 button.white:hover {
-    background: #eeeeee;
+    font-weight: 600;
+    background: #c0c8ba;
 }
 button.white:active {
     background: #a3a3a3;

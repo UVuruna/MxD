@@ -6,3 +6,4 @@ function loadHTML(elementId, filePath) {
 }
 
 loadHTML("title", "../HTML/title.html");
+loadHTML("top", "../HTML/top.html");

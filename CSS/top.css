@@ -1,79 +1,145 @@
 .top-frame {
-    /* website-redesign-homepage */
+    /* -- 1 -- */
     width: 100%;
-    height: 678px;
-    margin-bottom: 60px;
+    margin-top: 60px;
     position: relative;
     z-index: 1;
+    background-image: url("../Data/Images/top-frame-image.png");
+    aspect-ratio: 2.55 / 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.top-frame-image-1 {
-    /* website-redesign-homepage > top-frame */
-    width: 1728px;
-    height: 678px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-    aspect-ratio: 1728/678;
+.top-frame-1 {
+    /* -- 2 -- */
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.top-frame-2 {
+    /* -- 2 -- */
+    width: 100%;
+    height: 50%;
+    position: relative;
 }
 
 .top-frame-text {
-    /* website-redesign-homepage > top-frame */
+    /* -- 3 -- */
+    width: 100%;
+    max-width: 1300px;
     color: #ffffff;
     text-align: center;
-
     font-size: 64px;
     font-weight: 400;
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    white-space: nowrap;
 }
 
-.button.get-started, .button.contact-sales, .button.play-video {
-    /* website-redesign-homepage > top-frame */
+.get-started, .contact-sales, .play-video {
+    /* -- 3 -- */
     width: 200px;
     height: 58px;
     border-radius: 10px;
-    top: 58%;
+    top: 20%;
     font-size: 20px;
     font-weight: 400;
     position: absolute;
+    z-index: 2;
 }
 
-.button.get-started {
-    /* website-redesign-homepage > top-frame */
+.get-started {
+    /* -- 3 -- */
     background: #ffffff;
     left: 35%;
     color: #0065fa;
 }
 
-.button.contact-sales {
-    /* website-redesign-homepage > top-frame */
+.contact-sales {
+    /* -- 3 -- */
     background: #0065fa;
     right: 35%;
     color: #ffffff;
 }
 
-.button.play-video {
-    /* website-redesign-homepage > top-frame */
+.play-video {
+    /* -- 3 -- */
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    /* Boja teksta */
     left: 50%;
-    top: 90%;
+    top: 180%;
     transform: translate(-50%, -50%);
 }
 
+.play-video:hover {
+    font-weight: 600;
+}
+
 .play-video-img {
-    /* website-redesign-homepage > top-frame > button-play-video */
+    /* -- 4 -- */
     margin-right: 10px;
-    width: 34px;
-    height: 34px;
     object-fit: cover;
     aspect-ratio: 1;
+}
+
+/* Stilovi za telefone */
+@media (max-width: 768px) {
+    .top-frame {
+        aspect-ratio: 1 / 1;
+        margin-top: 20px;
+    }
+    .top-frame-1 {
+        /* -- 2 -- */
+        height: 70%;
+    }
+    
+    .top-frame-2 {
+        /* -- 2 -- */
+        height: 30%;
+    }
+    .top-frame-text {
+        /* -- 3 -- */
+        font-size: 36px;
+        font-weight: 400;
+        position: relative;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .get-started, .contact-sales, .play-video {
+        /* -- 3 -- */
+        width: 130px;
+        height: 48px;
+        top: 30%;
+        font-size: 16px;
+    }
+
+    .get-started {
+        /* -- 3 -- */
+        left: 8%;
+    }
+    
+    .contact-sales {
+        /* -- 3 -- */
+        right: 8%;
+    }
+    
+    .play-video {
+        /* -- 3 -- */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -50%);
+    }
 }
