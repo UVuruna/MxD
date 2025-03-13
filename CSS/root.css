@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../Data/Fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../Data/Fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../Data/Fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../Data/Fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   box-sizing: border-box;
   max-width: 1860px;
@@ -72,7 +97,6 @@ button.gray:hover {
 button.gray:active {
   background: #887ba2;
 }
-
 
 .nav button {
   position: absolute;

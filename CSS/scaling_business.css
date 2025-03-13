@@ -1,5 +1,5 @@
 .scaling-business-frame {
-  background-image: url('../Data/Images/scaling-business-img.png');
+  background-image: url('../Data/Images/scaling-business-img.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -98,24 +98,24 @@
 @media (max-width: 1300px) {
   .scaling-business-frame {
     padding: 35px 60px;
-}
+  }
   .scaling-business-title {
     font-size: 45px;
     padding: 25px 0;
   }
-  
+
   .scaling-business-text-frame {
     gap: 30px;
   }
   .scaling-business-team-title {
     font-size: 35px;
   }
-  
+
   .scaling-business-support-title,
   .scaling-business-partner-title {
     font-size: 40px;
   }
-  
+
   .scaling-business-team-explain,
   .scaling-business-support-explain,
   .scaling-business-partner-explain {
@@ -124,58 +124,58 @@
 }
 
 @media (max-width: 768px) {
-    .scaling-business-frame {
-        padding: 16px 25px 25px 10px;
-    }
-    .scaling-business-title {
-        font-size: 35px;
-      }
-      
-      .scaling-business-text-frame {
-        gap: 23px;
-      }
-      
-      .scaling-business-team-1,
-      .scaling-business-support-1,
-      .scaling-business-partner-1 {
-        width: 90%;
-      }
+  .scaling-business-frame {
+    padding: 16px 25px 25px 10px;
+  }
+  .scaling-business-title {
+    font-size: 35px;
+  }
 
-      .scaling-business-team-2,
-      .scaling-business-support-2,
-      .scaling-business-partner-2 {
-        width: 10%;
-      }
+  .scaling-business-text-frame {
+    gap: 23px;
+  }
 
-      .scaling-business-team-title {
-        font-size: 25px;
-      }
-      
-      .scaling-business-support-title,
-      .scaling-business-partner-title {
-        font-size: 30px;
-      }
-      
-      .scaling-business-team-explain,
-      .scaling-business-support-explain,
-      .scaling-business-partner-explain {
-        font-size: 13px;
-      }
-      
-      .scaling-business-ellipse {
-        background: #496bef;
-        border-radius: 50%;
-        width: 28px;
-        height: 28px;
-        position: absolute;
-        right: 0;
-        transform: translateX(33.3%);
-      }
-      
-      .scaling-business-vector {
-        height: 50%;
-        width: 1%;
-        position: absolute;
-        right: 0;
-      }
+  .scaling-business-team-1,
+  .scaling-business-support-1,
+  .scaling-business-partner-1 {
+    width: 90%;
+  }
+
+  .scaling-business-team-2,
+  .scaling-business-support-2,
+  .scaling-business-partner-2 {
+    width: 10%;
+  }
+
+  .scaling-business-team-title {
+    font-size: 25px;
+  }
+
+  .scaling-business-support-title,
+  .scaling-business-partner-title {
+    font-size: 30px;
+  }
+
+  .scaling-business-team-explain,
+  .scaling-business-support-explain,
+  .scaling-business-partner-explain {
+    font-size: 13px;
+  }
+
+  .scaling-business-ellipse {
+    background: #496bef;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    transform: translateX(33.3%);
+  }
+
+  .scaling-business-vector {
+    height: 50%;
+    width: 1%;
+    position: absolute;
+    right: 0;
+  }
 }

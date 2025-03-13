@@ -60,13 +60,13 @@
 }
 
 .verticles.card1 {
-  background-image: url('../Data/Images/verticles-direct-to-consumer.png');
+  background-image: url('../Data/Images/verticles-direct-to-consumer.webp');
 }
 .verticles.card2 {
-  background-image: url('../Data/Images/verticles-b2b-marketing.png');
+  background-image: url('../Data/Images/verticles-b2b-marketing.webp');
 }
 .verticles.card3 {
-  background-image: url('../Data/Images/verticles-consumer-services.png');
+  background-image: url('../Data/Images/verticles-consumer-services.webp');
 }
 .verticles.card4 {
   background-color: #fff7f7;
@@ -129,7 +129,7 @@
     background-size: center;
     background-repeat: no-repeat;
   }
-  
+
   .verticles.cardtitle {
     padding: 10px 10px 0 10px;
     font-size: 20px;
@@ -137,7 +137,7 @@
     line-height: 1.2;
     height: 60px;
   }
-  
+
   .verticles.cardtext {
     padding: 10px;
     font-size: 13px;

@@ -13,6 +13,8 @@
 }
 
 .MxD-logo-white {
+  width: 288px;
+  height: 83px;
   position: relative;
   padding: 40px 0;
   object-fit: cover;
