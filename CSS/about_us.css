@@ -38,11 +38,14 @@
   margin-left: 120px;
 }
 
+#what-we-do-2, #who-we-are-2 {
+  height: 550px;
+}
+
 #what-we-do-2,
 #who-we-are-2 {
   position: relative;
   width: 50%;
-  height: 100%;
   flex-grow: 1;
 }
 
@@ -140,6 +143,11 @@
   .who-we-are {
     flex-direction: column;
   }
+
+  #what-we-do-2, #who-we-are-2 {
+    height: 250px;
+  }
+  
 
   #what-we-do-1,
   #who-we-are-1,
