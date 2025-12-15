@@ -110,8 +110,6 @@
   border-radius: 20px;
   position: absolute;
   mix-blend-mode: luminosity;
-  width: 50%;
-  height: 50%;
   bottom: 18%;
   left: 10%;
 }
@@ -174,6 +172,13 @@
   .powered-by-data h3 {
     font-size: 20px;
     padding: 20px 0 60px 0;
+  }
+
+  /* Image */
+
+  .bottom img {
+    height: 50%;
+    width: 50%;
   }
 }
 
